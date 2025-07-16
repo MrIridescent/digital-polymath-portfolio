@@ -1,14 +1,53 @@
-# Digital Polymath Portfolio
+# 🌟 Digital Polymath Portfolio
 
-A modern, AI-powered portfolio website built with Next.js 15, showcasing full-stack development expertise with a focus on AI integration and system architecture.
+**David Akpoviroro OKE (Mr. Iridescent) - The Creative Renaissance Man**
 
-## 🚀 Features
+A spectacular, animated portfolio showcasing expertise in **Cisco Cyber Threat Management**, **Digital Product Architecture**, and **Polymathic Coding**.
 
-- **AI-Powered Showcase**: Interactive demonstrations of AI/ML projects
-- **Modern Design**: Responsive design with smooth animations using Framer Motion
-- **Performance Optimized**: Built with Next.js 15 and optimized for production
-- **TypeScript**: Fully typed for better development experience
-- **SEO Optimized**: Meta tags, structured data, and performance optimizations
+## ✨ Features
+
+- 🛡️ **Cisco Cyber Threat Management** expertise prominently featured
+- 🎨 **Spectacular animations** with GSAP, Framer Motion, and Three.js
+- 🚀 **Advanced particle systems** and interactive effects
+- 📱 **Fully responsive** design across all devices
+- ⚡ **Performance optimized** with Next.js static export
+- 🔒 **Security-focused** with proper headers and optimization
+
+## 🛡️ Cybersecurity Credentials
+
+- **Cisco Cyber Threat Management (CyberTM)** - 2024
+- **Cisco Certified Ethical Hacker** - 2024
+- **Cisco Certified Endpoint Security Engineer** - 2023
+- **Cisco CyberOps Associate** - 2022
+- **CompTIA A+ & N+**
+
+## 🚀 Deployment to cPanel
+
+This portfolio is configured for automatic deployment to cPanel hosting via GitHub Actions.
+
+### Setup Instructions:
+
+1. **Create a GitHub Repository:**
+   ```bash
+   # Push this code to your GitHub repository
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+2. **Configure GitHub Secrets:**
+   Go to your GitHub repository → Settings → Secrets and variables → Actions
+
+   Add these secrets:
+   - `CPANEL_FTP_SERVER`: Your cPanel FTP server (e.g., `ftp.yourdomain.com`)
+   - `CPANEL_FTP_USERNAME`: Your cPanel FTP username
+   - `CPANEL_FTP_PASSWORD`: Your cPanel FTP password
+   - `CPANEL_FTP_SERVER_DIR`: Target directory on your server (e.g., `/public_html/`)
+
+3. **Automatic Deployment:**
+   - Every push to `main` branch triggers automatic deployment
+   - GitHub Actions builds the project and deploys to your cPanel
+   - All images and assets are properly handled
 
 ## 🛠️ Tech Stack
 
