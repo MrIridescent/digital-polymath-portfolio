@@ -161,8 +161,8 @@ export function HeroSection() {
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                three decades of hands-on experience
-              </motion.span>{' '}with cutting-edge innovation. My expertise transcends any single technology—it's the wisdom of witnessing and shaping every major evolution in web development.
+                20+ years of hands-on experience
+              </motion.span>{' '}with cutting-edge innovation. My expertise transcends any single technology—it's the wisdom of witnessing and shaping two decades of web evolution.
             </motion.p>
 
             {/* Polymath Wisdom Quote */}

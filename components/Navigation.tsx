@@ -55,11 +55,11 @@ export function Navigation() {
             })}
           </div>
 
-          {/* Mobile menu button */}
+          {/* Mobile menu button - Enhanced touch target */}
           <button
             data-testid="mobile-menu-button"
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-md text-slate-600 hover:text-primary-600 hover:bg-slate-50"
+            className="md:hidden p-3 rounded-md text-slate-600 hover:text-primary-600 hover:bg-slate-50 mobile-touch-target min-h-[44px] min-w-[44px] flex items-center justify-center"
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -72,9 +72,9 @@ export function Navigation() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
-          className="md:hidden bg-white border-b border-slate-200"
+          className="md:hidden bg-white border-b border-slate-200 shadow-lg"
         >
-          <div className="px-2 pt-2 pb-3 space-y-1">
+          <div className="px-4 pt-4 pb-6 space-y-2">
             {navigation.map((item) => {
               const Icon = item.icon
               const isActive = pathname === item.href
@@ -85,14 +85,14 @@ export function Navigation() {
                   href={item.href}
                   onClick={() => setIsOpen(false)}
                   className={cn(
-                    'flex items-center space-x-2 px-3 py-2 rounded-md text-base font-medium',
+                    'flex items-center space-x-4 px-4 py-4 rounded-lg text-base font-medium transition-colors mobile-touch-target',
                     isActive
-                      ? 'text-primary-600 bg-primary-50'
+                      ? 'text-primary-600 bg-primary-50 border border-primary-200'
                       : 'text-slate-600 hover:text-primary-600 hover:bg-slate-50'
                   )}
                 >
-                  <Icon className="h-5 w-5" />
-                  <span>{item.name}</span>
+                  <Icon className="h-5 w-5 flex-shrink-0" />
+                  <span className="mobile-text-scale">{item.name}</span>
                 </Link>
               )
             })}

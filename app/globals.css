@@ -75,7 +75,7 @@
   animation-play-state: paused;
 }
 
-/* Mobile-optimized text scaling */
+/* Mobile-first responsive design system */
 @media (max-width: 640px) {
   .mobile-text-scale {
     font-size: clamp(0.875rem, 2.5vw, 1rem);
@@ -83,6 +83,87 @@
 
   .mobile-heading-scale {
     font-size: clamp(1.5rem, 6vw, 2.5rem);
+  }
+
+  /* Mobile-optimized spacing */
+  .mobile-spacing {
+    padding: clamp(1rem, 4vw, 2rem);
+  }
+
+  /* Mobile-friendly touch targets */
+  .mobile-touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Tablet optimizations */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .tablet-text-scale {
+    font-size: clamp(1rem, 2vw, 1.125rem);
+  }
+
+  .tablet-heading-scale {
+    font-size: clamp(2rem, 4vw, 3rem);
+  }
+}
+
+/* Desktop and larger screens */
+@media (min-width: 1025px) {
+  .desktop-text-scale {
+    font-size: clamp(1.125rem, 1.5vw, 1.25rem);
+  }
+
+  .desktop-heading-scale {
+    font-size: clamp(2.5rem, 3vw, 4rem);
+  }
+}
+
+/* Universal responsive utilities */
+.responsive-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(1rem, 4vw, 2rem);
+}
+
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: clamp(1rem, 3vw, 2rem);
+}
+
+.responsive-flex {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.5rem, 2vw, 1rem);
+}
+
+@media (min-width: 768px) {
+  .responsive-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Smooth scrolling and reduced motion support */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .smooth-transition {
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 

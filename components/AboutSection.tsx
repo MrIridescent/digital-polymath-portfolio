@@ -326,18 +326,18 @@ export function AboutSection() {
             </div>
 
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-              My coding odyssey began in the HTML 1.0 era—when the web was young and every line of code
-              was an experiment. Through decades of trial and error, breakthrough moments, and relentless
-              hands-on exploration, I've evolved from crafting static MHTML pages to architecting dynamic,
-              full-stack applications with modern frameworks and cloud infrastructure.
+              My coding odyssey began in 2004 during the dynamic web revolution—when XHTML was emerging
+              and every line of code was an experiment. Through two decades of trial and error, breakthrough
+              moments, and relentless hands-on exploration, I've evolved from crafting static pages to
+              architecting dynamic, full-stack applications with modern frameworks and cloud infrastructure.
             </p>
 
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-              This journey—from SHTML server-side includes to React's virtual DOM, from DHTML's early
-              interactivity to today's AI-powered applications—has forged an understanding that transcends
-              any single technology. My expertise isn't just theoretical knowledge from courses or
-              certifications; it's battle-tested wisdom earned through countless hours of debugging,
-              optimizing, and innovating across every layer of the web stack.
+              This 20-year journey—from DHTML's early interactivity to React's virtual DOM, from server-side
+              includes to today's AI-powered applications—has forged an understanding that transcends any
+              single technology. My expertise isn't just theoretical knowledge from courses or certifications;
+              it's battle-tested wisdom earned through countless hours of debugging, optimizing, and
+              innovating across every layer of the web stack.
             </p>
 
             <p className="text-lg text-slate-700 leading-relaxed">

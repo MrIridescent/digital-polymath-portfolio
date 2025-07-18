@@ -17,44 +17,44 @@ interface TimelineEvent {
 
 const techEvolution: TimelineEvent[] = [
   {
-    year: "1990s-2000s",
+    year: "2004-2008",
     era: "The Foundation Years",
-    technologies: ["HTML 1.0", "MHTML", "SHTML", "Basic CSS", "JavaScript"],
-    milestone: "Hand-crafted web pages, server-side includes",
+    technologies: ["XHTML", "CSS 2", "JavaScript", "DHTML", "Server-side Includes"],
+    milestone: "Hand-crafted web pages, cross-browser compatibility",
     icon: Globe,
     color: "neon",
-    description: "Where it all began—crafting every pixel by hand, learning the fundamental building blocks of the web."
+    description: "Where my journey began—crafting every pixel by hand, learning the fundamental building blocks during the dynamic web revolution."
   },
   {
-    year: "2000s-2005",
-    era: "Dynamic Web Era",
-    technologies: ["XHTML", "DHTML", "CSS 2", "DOM Manipulation", "AJAX"],
-    milestone: "Interactive web applications, cross-browser compatibility",
+    year: "2008-2012",
+    era: "Framework Revolution",
+    technologies: ["jQuery", "PHP", "MySQL", "CSS 3", "HTML5"],
+    milestone: "Interactive web applications, standardized development",
     icon: Code,
     color: "hologram",
-    description: "The era of making static pages come alive—battling browser wars and creating the first truly dynamic experiences."
+    description: "The era of making static pages come alive—mastering jQuery and battling browser wars while embracing web standards."
   },
   {
-    year: "2005-2010",
-    era: "Framework Revolution",
-    technologies: ["jQuery", "PHP", "MySQL", "Web Standards", "Responsive Design"],
-    milestone: "Standardized development practices, mobile-first thinking",
+    year: "2012-2016",
+    era: "Mobile & Responsive Era",
+    technologies: ["Responsive Design", "Bootstrap", "SASS", "Node.js", "Angular"],
+    milestone: "Mobile-first development, single page applications",
     icon: Smartphone,
     color: "quantum",
-    description: "The rise of frameworks and the mobile revolution—learning to think beyond desktop screens."
+    description: "The mobile revolution—learning to think beyond desktop screens and embracing responsive, mobile-first design."
   },
   {
-    year: "2010-2015",
-    era: "Modern Frontend",
-    technologies: ["HTML5", "CSS3", "Node.js", "Angular", "React", "RESTful APIs"],
-    milestone: "Single Page Applications, component-based architecture",
+    year: "2016-2020",
+    era: "Modern Frontend Mastery",
+    technologies: ["React", "ES6+", "Webpack", "RESTful APIs", "Git Workflows"],
+    milestone: "Component-based architecture, modern build tools",
     icon: Brain,
     color: "magnetic",
-    description: "The component revolution—moving from pages to applications, embracing the power of JavaScript everywhere."
+    description: "The component revolution—moving from pages to applications, mastering modern JavaScript and build processes."
   },
   {
-    year: "2015-2020",
-    era: "Full-Stack Mastery",
+    year: "2020-2022",
+    era: "Full-Stack Evolution",
     technologies: ["React Native", "Flutter", "PostgreSQL", "Docker", "AWS", "GraphQL"],
     milestone: "Cross-platform development, cloud-native architecture",
     icon: Cloud,
@@ -62,13 +62,13 @@ const techEvolution: TimelineEvent[] = [
     description: "Expanding beyond the browser—mobile apps, cloud infrastructure, and truly full-stack thinking."
   },
   {
-    year: "2020-Present",
-    era: "AI & Security Era",
+    year: "2022-Present",
+    era: "AI & Security Specialization",
     technologies: ["Next.js", "Svelte", "Supabase", "AI/ML", "Cybersecurity", "Edge Computing"],
-    milestone: "AI-powered development, advanced threat management",
+    milestone: "AI-powered development, Cisco threat management certification",
     icon: Shield,
     color: "glass",
-    description: "The convergence of AI and security—where decades of experience meet cutting-edge innovation."
+    description: "The convergence of AI and security—where 20 years of experience meet cutting-edge innovation and cybersecurity expertise."
   }
 ]
 
@@ -82,14 +82,14 @@ export function TechEvolutionTimeline() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12 md:mb-16"
         >
-          <SpectacularText 
+          <SpectacularText
             effect="electric"
             className="text-3xl md:text-4xl font-bold mb-6"
           >
-            Three Decades of Web Evolution
+            Two Decades of Web Mastery
           </SpectacularText>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            From HTML 1.0 to AI-powered applications—a journey through every major revolution in web technology.
+            From 2004 to today—witnessing and mastering every major revolution in web technology since the dynamic web era.
           </p>
         </motion.div>
 
@@ -173,9 +173,9 @@ export function TechEvolutionTimeline() {
               "Every Era Taught Me Something New"
             </SpectacularText>
             <p className="text-lg text-slate-700 leading-relaxed">
-              This isn't just a career timeline—it's a testament to continuous adaptation and learning. 
-              Each technological shift brought new challenges, new opportunities, and new ways of thinking. 
-              From hand-coding HTML tables to architecting cloud-native applications, every step has built 
+              This isn't just a career timeline—it's a testament to 20 years of continuous adaptation and learning.
+              Each technological shift since 2004 brought new challenges, new opportunities, and new ways of thinking.
+              From hand-coding XHTML pages to architecting AI-powered applications, every step has built
               the foundation for solving tomorrow's problems with today's innovations.
             </p>
           </AdvancedCard>
