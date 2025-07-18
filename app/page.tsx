@@ -7,6 +7,7 @@ import {
   LazyWrapper
 } from '@/components/LazyComponents'
 import dynamic from 'next/dynamic'
+import { EmergingTechShowcase } from '@/components/EmergingTechShowcase'
 
 // Ultra-fast dynamic imports for non-critical components
 const LazyFloatingIconsBackground = dynamic(
@@ -44,6 +45,9 @@ export default function HomePage() {
       <LazyWrapper>
         <LazyCyberThreatShowcase />
       </LazyWrapper>
+
+      {/* Emerging Technologies - Mobile-first showcase */}
+      <EmergingTechShowcase variant="compact" showQuotes={true} />
 
       {/* Interactive content - client-side for performance */}
       <Suspense fallback={

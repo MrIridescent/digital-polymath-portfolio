@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, Code } from 'lucide-react'
 import Link from 'next/link'
+import { FooterQuote } from './PolymathQuotes'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -79,6 +80,11 @@ export function Footer() {
               </a>
             </div>
           </div>
+        </div>
+
+        {/* Polymath Quote Ticker */}
+        <div className="border-t border-slate-800 mt-8 pt-8">
+          <FooterQuote />
         </div>
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400">

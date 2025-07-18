@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { Shield, Code, Brain, Lightbulb, Award, GraduationCap, MapPin, Phone, Mail, Linkedin } from 'lucide-react'
 import { SpectacularText } from './SpectacularText'
 import { AdvancedCard } from './AdvancedCard'
+import { SectionQuote } from './PolymathQuotes'
 
 export function AboutSection() {
   const certifications = [
@@ -257,6 +258,12 @@ export function AboutSection() {
             >
               "Creating solutions where Arte meets Scienza"
             </SpectacularText>
+
+            {/* Da Vinci Philosophy Quote */}
+            <div className="mb-6">
+              <SectionQuote category="philosophy" />
+            </div>
+
             <p className="text-lg text-slate-700 leading-relaxed">
               Since 2017, I have led a talented team delivering exceptional web and mobile apps,
               secure software, and complete IT solutions. As a Cisco Cyber Threat Manager (CyberTM),

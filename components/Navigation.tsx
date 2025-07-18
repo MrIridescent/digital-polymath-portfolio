@@ -4,11 +4,12 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
-import { Menu, X, Code, User, Mail, Brain, BookOpen, Target, FileText } from 'lucide-react'
+import { Menu, X, Code, User, Mail, Brain, BookOpen, Target, FileText, Zap } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 const navigation = [
   { name: 'About', href: '/about', icon: User },
+  { name: 'Emerging Tech', href: '/emerging-tech', icon: Zap },
   { name: 'Philosophy', href: '/philosophy', icon: Brain },
   { name: 'Case Studies', href: '/case-studies', icon: Target },
   { name: 'Writings', href: '/writings', icon: BookOpen },

@@ -6,6 +6,7 @@ import { ParticleSystem } from './ParticleSystem'
 import { SpectacularText, GlitchText } from './SpectacularText'
 import { SpectacularButton } from './SpectacularButton'
 import { ProfileImage } from './ProfileImage'
+import { HeroQuote } from './PolymathQuotes'
 
 export function HeroSection() {
   return (
@@ -163,6 +164,15 @@ export function HeroSection() {
                 interdisciplinary insights
               </motion.span> from design, data science, and systems thinking.
             </motion.p>
+
+            {/* Polymath Wisdom Quote */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 1.2 }}
+            >
+              <HeroQuote />
+            </motion.div>
           </motion.div>
 
           {/* Da Vincian Principles Preview */}
