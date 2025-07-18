@@ -1,23 +1,34 @@
 [build]
-  # Build command
+  # Build command for SSR
   command = "npm run build"
-  
-  # Directory to publish (our static export)
-  publish = "out"
-  
+
+  # Directory to publish (Next.js SSR build)
+  publish = ".next"
+
   # Node.js version
   environment = { NODE_VERSION = "18" }
+
+  # Functions directory for SSR
+  functions = ".netlify/functions-internal"
 
 [build.environment]
   # Optimize for production
   NODE_ENV = "production"
   NEXT_TELEMETRY_DISABLED = "1"
 
-# Redirect rules for Next.js static export
+# Redirect rules for Next.js SSR
 [[redirects]]
   from = "/*"
-  to = "/index.html"
-  status = 404
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+# Enable Next.js SSR on Netlify
+[functions]
+  directory = ".netlify/functions-internal"
+
+# Plugin for Next.js SSR
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 # Headers for security and performance
 [[headers]]
