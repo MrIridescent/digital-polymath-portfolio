@@ -148,21 +148,21 @@ export function HeroSection() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              I architect holistic solutions by synthesizing{' '}
+              From the{' '}
               <motion.span
                 className="text-primary-600 font-semibold"
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                technical expertise
-              </motion.span> across multiple paradigms with{' '}
+                HTML 1.0 era
+              </motion.span>{' '}to tomorrow's AI-powered applications, I synthesize{' '}
               <motion.span
                 className="text-accent-600 font-semibold"
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                interdisciplinary insights
-              </motion.span> from design, data science, and systems thinking.
+                three decades of hands-on experience
+              </motion.span>{' '}with cutting-edge innovation. My expertise transcends any single technology—it's the wisdom of witnessing and shaping every major evolution in web development.
             </motion.p>
 
             {/* Polymath Wisdom Quote */}
@@ -180,19 +180,19 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="flex justify-center gap-8 mb-12"
+            className="flex flex-wrap justify-center gap-4 md:gap-8 mb-12"
           >
             <div className="flex items-center gap-2 text-slate-600">
               <Brain className="h-5 w-5 text-primary-600" />
-              <span className="text-sm font-medium">Systems Thinking</span>
+              <span className="text-sm font-medium">Historical Authority</span>
             </div>
             <div className="flex items-center gap-2 text-slate-600">
               <Code className="h-5 w-5 text-accent-600" />
-              <span className="text-sm font-medium">Polyglot Fluency</span>
+              <span className="text-sm font-medium">Trial & Error Mastery</span>
             </div>
             <div className="flex items-center gap-2 text-slate-600">
               <Lightbulb className="h-5 w-5 text-indigo-600" />
-              <span className="text-sm font-medium">Creative Synthesis</span>
+              <span className="text-sm font-medium">Solution Architecture</span>
             </div>
           </motion.div>
 

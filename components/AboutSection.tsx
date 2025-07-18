@@ -5,6 +5,7 @@ import { Shield, Code, Brain, Lightbulb, Award, GraduationCap, MapPin, Phone, Ma
 import { SpectacularText } from './SpectacularText'
 import { AdvancedCard } from './AdvancedCard'
 import { SectionQuote } from './PolymathQuotes'
+import { TechEvolutionTimeline } from './TechEvolutionTimeline'
 
 export function AboutSection() {
   const certifications = [
@@ -35,20 +36,26 @@ export function AboutSection() {
 
   const coreCompetencies = [
     {
+      title: 'Frontend Mastery: HTML 1.0 to Modern Frameworks',
+      description: 'Two decades of evolution from hand-coded MHTML/SHTML/XHTML/DHTML to React, Svelte, and cutting-edge web technologies. Authority built through witnessing and shaping every major frontend revolution.',
+      icon: Code,
+      color: 'hologram'
+    },
+    {
+      title: 'Full-Stack Architecture & Backend Systems',
+      description: 'From frontend foundations to backend mastery: Node.js, Python, PostgreSQL, Supabase, Firebase. Complete system design from database to deployment.',
+      icon: Brain,
+      color: 'quantum'
+    },
+    {
       title: 'Cybersecurity & Cyber Threat Management',
       description: 'Cisco-certified expertise in threat intelligence, risk assessment, incident response, and proactive cybersecurity measures',
       icon: Shield,
       color: 'neon'
     },
     {
-      title: 'Software & Application Development',
-      description: 'Python, Java, React Native, Flutter, Android - creating secure, high-performance apps',
-      icon: Code,
-      color: 'hologram'
-    },
-    {
-      title: 'Digital Product Architecture',
-      description: 'End-to-end strategy and execution for scalable, user-centered digital products',
+      title: 'Abstract Conceptualization & Solution Architecture',
+      description: 'Transforming complex business challenges into elegant technical solutions through systems thinking and interdisciplinary synthesis',
       icon: Brain,
       color: 'quantum'
     },
@@ -102,9 +109,11 @@ export function AboutSection() {
             The Creative Renaissance Man
           </SpectacularText>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            As a senior full stack developer and cybersecurity professional, I create robust digital solutions
-            that help businesses grow while securing their futures. Combining Computer Science expertise
-            with Business Administration insights to bridge technical innovation with strategic goals.
+            From the HTML 1.0 era to today's quantum computing frontier, I've witnessed and shaped the evolution
+            of web technology. My journey began in the foundational days of MHTML, SHTML, XHTML, and DHTML—when
+            every pixel was hand-crafted and every interaction was an innovation. This deep historical perspective,
+            combined with modern full-stack mastery and cybersecurity expertise, enables me to architect solutions
+            that bridge decades of technological evolution with tomorrow's possibilities.
           </p>
         </motion.div>
 
@@ -179,6 +188,58 @@ export function AboutSection() {
               </motion.div>
             ))}
           </div>
+        </motion.div>
+
+        {/* Philosophy of Experiential Knowledge */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="mb-16"
+        >
+          <AdvancedCard effect="renaissance" className="p-8 max-w-4xl mx-auto">
+            <SpectacularText
+              effect="electric"
+              className="text-2xl font-bold mb-6 text-center"
+            >
+              "True Knowledge Cannot Be Quantified—Only Experienced"
+            </SpectacularText>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-lg font-semibold text-slate-700 mb-3">The Trial-and-Error Foundation</h4>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  My expertise wasn't built in classrooms but in the trenches of real-world problem-solving.
+                  From debugging DHTML browser incompatibilities in the early 2000s to optimizing modern
+                  React applications, every challenge has been a teacher.
+                </p>
+                <p className="text-slate-600 leading-relaxed">
+                  This hands-on methodology—breaking things, fixing them, and understanding why—has created
+                  an intuitive grasp of technology that no certification can replicate.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-lg font-semibold text-slate-700 mb-3">Solution-Oriented Thinking</h4>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  I don't just write code—I solve problems. Whether it's architecting a scalable backend,
+                  securing against emerging threats, or creating intuitive user experiences, my approach
+                  is always solution-first, technology-second.
+                </p>
+                <p className="text-slate-600 leading-relaxed">
+                  This abstract conceptualization ability allows me to see patterns across domains,
+                  synthesizing insights from design, data science, and systems thinking into cohesive solutions.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <p className="text-lg text-slate-700 italic">
+                "My portfolio isn't just a showcase—it's a testament to decades of continuous learning,
+                adaptation, and innovation in the ever-evolving landscape of web technology."
+              </p>
+            </div>
+          </AdvancedCard>
         </motion.div>
 
         {/* Certifications & Education */}
@@ -264,10 +325,26 @@ export function AboutSection() {
               <SectionQuote category="philosophy" />
             </div>
 
+            <p className="text-lg text-slate-700 leading-relaxed mb-6">
+              My coding odyssey began in the HTML 1.0 era—when the web was young and every line of code
+              was an experiment. Through decades of trial and error, breakthrough moments, and relentless
+              hands-on exploration, I've evolved from crafting static MHTML pages to architecting dynamic,
+              full-stack applications with modern frameworks and cloud infrastructure.
+            </p>
+
+            <p className="text-lg text-slate-700 leading-relaxed mb-6">
+              This journey—from SHTML server-side includes to React's virtual DOM, from DHTML's early
+              interactivity to today's AI-powered applications—has forged an understanding that transcends
+              any single technology. My expertise isn't just theoretical knowledge from courses or
+              certifications; it's battle-tested wisdom earned through countless hours of debugging,
+              optimizing, and innovating across every layer of the web stack.
+            </p>
+
             <p className="text-lg text-slate-700 leading-relaxed">
-              Since 2017, I have led a talented team delivering exceptional web and mobile apps,
-              secure software, and complete IT solutions. As a Cisco Cyber Threat Manager (CyberTM),
-              CyberOps Associate, and Verified Ethical Hacker, I specialize in threat intelligence
+              As a Cisco Cyber Threat Manager (CyberTM), CyberOps Associate, and Verified Ethical Hacker,
+              I now apply this deep technical foundation to cybersecurity, where my historical perspective
+              on web vulnerabilities—from the early days of form exploits to modern API security—provides
+              unique insights into threat intelligence
               gathering, risk assessment, incident response, and proactive cybersecurity measures.
               My mission is to turn bold ideas into real results using technology to build secure
               and effective platforms that help businesses succeed in the digital age.
@@ -275,6 +352,9 @@ export function AboutSection() {
           </AdvancedCard>
         </motion.div>
       </div>
+
+      {/* Technology Evolution Timeline */}
+      <TechEvolutionTimeline />
     </section>
   )
 }

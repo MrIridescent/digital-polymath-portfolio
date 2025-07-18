@@ -140,6 +140,26 @@ const polymathQuotes: QuoteData[] = [
     author: "David Epstein",
     context: "Author of 'Range', Advocate for Generalist Thinking",
     category: "future"
+  },
+
+  // Experience & Mastery
+  {
+    text: "Experience is not what happens to you; it's what you do with what happens to you.",
+    author: "Aldous Huxley",
+    context: "Author and Philosopher",
+    category: "philosophy"
+  },
+  {
+    text: "True knowledge exists in knowing that you know nothing.",
+    author: "Socrates",
+    context: "Ancient Greek Philosopher",
+    category: "philosophy"
+  },
+  {
+    text: "The expert in anything was once a beginner.",
+    author: "Helen Hayes",
+    context: "Actress and Lifelong Learner",
+    category: "philosophy"
   }
 ]
 
