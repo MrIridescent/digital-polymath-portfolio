@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     default: 'Polymathic Coder - Code in any language. Think in every discipline.',
     template: '%s | Polymathic Coder'
   },
-  description: 'Digital Polymath and Senior Full Stack Architect specializing in interdisciplinary problem-solving. Architecting holistic solutions at the intersection of technology, design, and systems thinking.',
+  description: 'Digital Polymath and Senior Full Stack Developer specializing in interdisciplinary problem-solving. Creating holistic solutions at the intersection of technology, design, and systems thinking.',
   keywords: ['Polymathic Coder', 'Digital Polymath', 'Systems Thinking', 'Full-stack Developer', 'Interdisciplinary', 'Polyglot Developer', 'Software Architecture', 'React', 'Next.js', 'TypeScript', 'Node.js', 'Python', 'Java'],
   authors: [{ name: 'Polymathic Coder' }],
   creator: 'Polymathic Coder',
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://polymathiccoder.dev',
     title: 'Polymathic Coder - Code in any language. Think in every discipline.',
-    description: 'Digital Polymath and Senior Full Stack Architect specializing in interdisciplinary problem-solving. Architecting holistic solutions at the intersection of technology, design, and systems thinking.',
+    description: 'Digital Polymath and Senior Full Stack Developer specializing in interdisciplinary problem-solving. Creating holistic solutions at the intersection of technology, design, and systems thinking.',
     siteName: 'Polymathic Coder',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Polymathic Coder - Code in any language. Think in every discipline.',
-    description: 'Digital Polymath and Senior Full Stack Architect specializing in interdisciplinary problem-solving.',
+    description: 'Digital Polymath and Senior Full Stack Developer specializing in interdisciplinary problem-solving.',
   },
   robots: {
     index: true,

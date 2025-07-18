@@ -137,7 +137,7 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <GlitchText className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary-600">
-                Founder & Digital Product Architect | Cyber Threat Manager | Computer Scientist
+                Senior Full Stack Developer | Cyber Threat Manager | Computer Scientist
               </GlitchText>
             </motion.div>
 

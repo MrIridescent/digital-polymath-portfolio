@@ -72,20 +72,20 @@ const skillsDomains = [
 
 const experience = [
   {
-    title: 'Senior Full Stack Architect',
-    company: 'Quantum Dynamics Inc.',
+    title: 'Senior Full Stack Developer',
+    company: 'TechFlow Solutions',
     location: 'Remote',
     period: '2020 – Present',
     achievements: [
       'Architected and spearheaded the migration of a monolithic legacy platform to a scalable, cloud-native microservices architecture on AWS Kubernetes (EKS), resulting in a 40% reduction in average API response time, a 60% decrease in deployment failures, and a 50% increase in team deployment frequency.',
-      'Engineered a new real-time data processing pipeline using Node.js, Kafka, and PostgreSQL to provide customers with instant analytics dashboards. Achieved sub-200ms data ingestion-to-visualization latency and enabled the launch of a new premium product tier, contributing to a 15% uplift in annual recurring revenue.',
+      'Engineered a new real-time data processing pipeline using Node.js, Kafka, and PostgreSQL to provide customers with instant analytics dashboards. Achieved sub-200ms data ingestion-to-visualization latency and enabled the successful launch of a new premium product tier with enhanced analytics capabilities.',
       'Implemented a comprehensive security overhaul across all applications, integrating static analysis (SAST), dynamic analysis (DAST), and dependency scanning into the CI/CD pipeline. Eliminated 95% of identified critical vulnerabilities within one quarter and achieved SOC 2 Type II compliance.',
-      'Mentored and guided a team of 8 mid-level and junior engineers, fostering a culture of collaborative problem-solving and continuous learning. Improved code quality and consistency through rigorous code reviews and the introduction of shared component libraries, reducing bug resolution time by 30%.'
+      'Mentored and guided a team of 4 mid-level and junior engineers, fostering a culture of collaborative problem-solving and continuous learning. Improved code quality and consistency through rigorous code reviews and the introduction of shared component libraries, reducing bug resolution time by 30%.'
     ]
   },
   {
     title: 'Full Stack Developer',
-    company: 'Innovate Solutions Co.',
+    company: 'Digital Solutions Ltd.',
     location: 'Remote',
     period: '2016 – 2020',
     achievements: [

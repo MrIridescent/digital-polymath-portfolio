@@ -101,8 +101,8 @@ export function AboutSection() {
             The Creative Renaissance Man
           </SpectacularText>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            As a tech leader and founder of Iridescent Internet Solutions, I make digital solutions 
-            that help businesses grow while securing their futures. Combining Computer Science expertise 
+            As a senior full stack developer and cybersecurity professional, I create robust digital solutions
+            that help businesses grow while securing their futures. Combining Computer Science expertise
             with Business Administration insights to bridge technical innovation with strategic goals.
           </p>
         </motion.div>
@@ -251,11 +251,11 @@ export function AboutSection() {
           className="mt-16 text-center"
         >
           <AdvancedCard effect="renaissance" className="p-8 max-w-4xl mx-auto">
-            <SpectacularText 
+            <SpectacularText
               effect="plasma"
               className="text-2xl font-bold mb-6"
             >
-              "Architecting solutions where Arte meets Scienza"
+              "Creating solutions where Arte meets Scienza"
             </SpectacularText>
             <p className="text-lg text-slate-700 leading-relaxed">
               Since 2017, I have led a talented team delivering exceptional web and mobile apps,

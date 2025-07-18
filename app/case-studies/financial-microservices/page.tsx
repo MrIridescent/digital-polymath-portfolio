@@ -20,7 +20,7 @@ const outcomes = [
   { metric: '40%', description: 'Reduction in API response times', icon: Zap },
   { metric: '60%', description: 'Decrease in deployment failures', icon: TrendingDown },
   { metric: 'SOC 2', description: 'Type II compliance achieved', icon: Shield },
-  { metric: '$500K', description: 'Annual infrastructure cost savings', icon: CheckCircle }
+  { metric: '35%', description: 'Reduction in infrastructure costs', icon: CheckCircle }
 ]
 
 const migrationPhases = [
