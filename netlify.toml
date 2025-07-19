@@ -5,14 +5,12 @@
   # Directory to publish (Next.js SSR build)
   publish = ".next"
 
-  # Node.js version
-  environment = { NODE_VERSION = "18" }
-
   # Functions directory for SSR
   functions = ".netlify/functions-internal"
 
 [build.environment]
-  # Optimize for production
+  # Node.js version and production optimization
+  NODE_VERSION = "18"
   NODE_ENV = "production"
   NEXT_TELEMETRY_DISABLED = "1"
 
@@ -92,7 +90,3 @@
 # Form handling (if needed for contact form)
 [forms]
   # Enable Netlify Forms
-  
-# Functions (if needed later)
-[functions]
-  directory = "netlify/functions"
