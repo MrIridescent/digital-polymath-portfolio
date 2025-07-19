@@ -6,6 +6,7 @@ import { SpectacularText } from './SpectacularText'
 import { AdvancedCard } from './AdvancedCard'
 import { SectionQuote } from './PolymathQuotes'
 import { TechEvolutionTimeline } from './TechEvolutionTimeline'
+import { EducationJourney } from './EducationJourney'
 import { KineticContainer, KineticCard } from './KineticSystem'
 
 export function AboutSection() {
@@ -361,6 +362,9 @@ export function AboutSection() {
 
       {/* Technology Evolution Timeline */}
       <TechEvolutionTimeline />
+
+      {/* Education Journey */}
+      <EducationJourney />
     </section>
   )
 }

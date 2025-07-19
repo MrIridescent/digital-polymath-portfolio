@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Calendar, Code, Globe, Smartphone, Cloud, Brain, Shield } from 'lucide-react'
+import { Calendar, Code, Globe, Smartphone, Cloud, Brain, Shield, GraduationCap, Database, Award } from 'lucide-react'
 import { AdvancedCard } from './AdvancedCard'
 import { SpectacularText } from './SpectacularText'
 
@@ -17,22 +17,49 @@ interface TimelineEvent {
 
 const techEvolution: TimelineEvent[] = [
   {
-    year: "2004-2008",
-    era: "The Foundation Years",
-    technologies: ["XHTML", "CSS 2", "JavaScript", "DHTML", "Server-side Includes"],
-    milestone: "Hand-crafted web pages, cross-browser compatibility",
-    icon: Globe,
+    year: "2004-2006",
+    era: "University Foundation",
+    technologies: ["HTML", "CSS", "Basic JavaScript", "Computer Science Fundamentals"],
+    milestone: "Started coding journey during university studies",
+    icon: GraduationCap,
     color: "neon",
-    description: "Where my journey began—crafting every pixel by hand, learning the fundamental building blocks during the dynamic web revolution."
+    description: "Where my journey began—learning programming fundamentals while pursuing higher education, crafting first web pages by hand."
   },
   {
-    year: "2008-2012",
-    era: "Framework Revolution",
-    technologies: ["jQuery", "PHP", "MySQL", "CSS 3", "HTML5"],
-    milestone: "Interactive web applications, standardized development",
-    icon: Code,
+    year: "2006-2008",
+    era: "Web Standards Era",
+    technologies: ["XHTML", "CSS 2", "DOM Manipulation", "Web Standards"],
+    milestone: "Mastered web standards and cross-browser compatibility",
+    icon: Globe,
     color: "hologram",
-    description: "The era of making static pages come alive—mastering jQuery and battling browser wars while embracing web standards."
+    description: "Diving deeper into web standards, learning the importance of semantic markup and accessible design principles."
+  },
+  {
+    year: "2008-2010",
+    era: "Dynamic Web Development",
+    technologies: ["JavaScript", "DHTML", "AJAX", "Server-side Includes"],
+    milestone: "Created first interactive web applications",
+    icon: Code,
+    color: "quantum",
+    description: "The era of making static pages come alive—mastering dynamic content and early AJAX implementations."
+  },
+  {
+    year: "2010-2012",
+    era: "Framework Adoption",
+    technologies: ["jQuery", "PHP", "MySQL", "CSS 3", "HTML5"],
+    milestone: "Embraced modern frameworks and database integration",
+    icon: Database,
+    color: "magnetic",
+    description: "Transitioning to modern frameworks, building database-driven applications and responsive designs."
+  },
+  {
+    year: "2012-2015",
+    era: "Professional Development",
+    technologies: ["Responsive Design", "Bootstrap", "Advanced JavaScript", "Version Control"],
+    milestone: "Graduated university, entered professional development",
+    icon: Award,
+    color: "liquid",
+    description: "University graduation and entry into professional web development with mobile-first responsive design mastery."
   },
   {
     year: "2012-2016",
@@ -86,10 +113,10 @@ export function TechEvolutionTimeline() {
             effect="electric"
             className="text-3xl md:text-4xl font-bold mb-6"
           >
-            Two Decades of Web Mastery
+            Professional Journey: 2004-2024
           </SpectacularText>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            From 2004 to today—witnessing and mastering every major revolution in web technology since the dynamic web era.
+            From university foundations to professional mastery—a complete journey through two decades of technological evolution and continuous learning.
           </p>
         </motion.div>
 

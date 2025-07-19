@@ -183,9 +183,9 @@ export function PolymathQuoteTicker({
     : polymathQuotes.filter(quote => quote.category === category)
 
   const speedConfig = {
-    slow: 12000,  // Slower for better readability
-    medium: 8000,
-    fast: 5000
+    slow: 15000,  // Even slower for better readability
+    medium: 10000,
+    fast: 7000
   }
 
   useEffect(() => {
@@ -206,7 +206,7 @@ export function PolymathQuoteTicker({
           initial={{ x: '100%' }}
           animate={{ x: '-100%' }}
           transition={{
-            duration: speed === 'slow' ? 25 : speedConfig[speed] / 1000,  // Much slower for readability
+            duration: speed === 'slow' ? 35 : speedConfig[speed] / 1000,  // Much slower for readability
             ease: 'linear',
             repeat: Infinity
           }}
