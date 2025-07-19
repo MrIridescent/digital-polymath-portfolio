@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
+import '../styles/dynamic-themes.css'
 import { Suspense } from 'react'
 import dynamic from 'next/dynamic'
 
 import { Navigation } from '@/components/Navigation'
 import { Footer } from '@/components/Footer'
+import { DynamicLayoutSystem } from '@/components/DynamicLayoutSystem'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -64,13 +66,15 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <body className="font-sans antialiased">
-        <Navigation />
+        <DynamicLayoutSystem>
+          <Navigation />
 
-        <main className="min-h-screen">
-          {children}
-        </main>
+          <main className="min-h-screen">
+            {children}
+          </main>
 
-        <Footer />
+          <Footer />
+        </DynamicLayoutSystem>
       </body>
     </html>
   )

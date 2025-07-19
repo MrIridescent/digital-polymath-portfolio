@@ -7,6 +7,7 @@ import { EmergingTechShowcase } from '@/components/EmergingTechShowcase'
 import { FloatingIconsBackground } from '@/components/AnimatedIcons'
 import { CTASection } from '@/components/CTASection'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
+import { ThemeSelector } from '@/components/ThemeSelector'
 
 export default function HomePage() {
   return (
@@ -37,6 +38,9 @@ export default function HomePage() {
       </div>
 
       <CTASection />
+
+      {/* Dynamic Theme Selector */}
+      <ThemeSelector />
     </div>
   )
 }
