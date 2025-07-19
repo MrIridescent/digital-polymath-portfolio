@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { DynamicThemeEngine, ThemeVariant } from '@/lib/DynamicThemeEngine'
 import { AIPersonalizationEngine } from '@/lib/AIPersonalizationEngine'
+import { ClientOnly } from './ClientOnly'
 
 interface DynamicLayoutProps {
   children: React.ReactNode
@@ -18,16 +19,19 @@ export function DynamicLayoutSystem({ children }: DynamicLayoutProps) {
   useEffect(() => {
     const initializeTheme = async () => {
       try {
+        // Only run on client side
+        if (typeof window === 'undefined') return
+
         // Get AI-recommended theme or fallback to visit-based theme
         const visitTheme = themeEngine.getThemeForVisit()
-        
+
         // Apply the theme
         themeEngine.applyTheme(visitTheme)
         setCurrentTheme(visitTheme)
-        
+
         // Add theme transition effect
         document.body.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
-        
+
         setIsLoading(false)
       } catch (error) {
         console.error('Theme initialization failed:', error)
@@ -35,7 +39,9 @@ export function DynamicLayoutSystem({ children }: DynamicLayoutProps) {
       }
     }
 
-    initializeTheme()
+    // Delay initialization to ensure client-side hydration
+    const timer = setTimeout(initializeTheme, 100)
+    return () => clearTimeout(timer)
   }, [themeEngine, aiEngine])
 
   const getLayoutClasses = () => {
@@ -165,7 +171,9 @@ export function DynamicLayoutSystem({ children }: DynamicLayoutProps) {
         )}
 
         {/* Dynamic Background Effects */}
-        <DynamicBackground theme={currentTheme} />
+        <ClientOnly>
+          <DynamicBackground theme={currentTheme} />
+        </ClientOnly>
         
         {/* Main Content */}
         <motion.div
@@ -198,7 +206,7 @@ interface DynamicBackgroundProps {
 }
 
 function DynamicBackground({ theme }: DynamicBackgroundProps) {
-  if (!theme) return null
+  if (!theme || typeof window === 'undefined') return null
 
   return (
     <div className="fixed inset-0 pointer-events-none z-0">

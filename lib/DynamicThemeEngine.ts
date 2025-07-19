@@ -638,7 +638,7 @@ export class DynamicThemeEngine {
   }
 
   public applyTheme(theme: ThemeVariant): void {
-    if (typeof window === 'undefined') return
+    if (typeof window === 'undefined' || typeof document === 'undefined') return
 
     const root = document.documentElement
 

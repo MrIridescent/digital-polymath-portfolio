@@ -2,8 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 import '../styles/dynamic-themes.css'
-import { Suspense } from 'react'
-import dynamic from 'next/dynamic'
+
 
 import { Navigation } from '@/components/Navigation'
 import { Footer } from '@/components/Footer'
@@ -65,7 +64,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
-      <body className="font-sans antialiased">
+      <body className="font-sans antialiased" suppressHydrationWarning={true}>
         <DynamicLayoutSystem>
           <Navigation />
 
