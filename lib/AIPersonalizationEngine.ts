@@ -81,14 +81,22 @@ export class AIPersonalizationEngine {
   }
 
   private getDeviceContext(): UserContext['device'] {
+    if (typeof window === 'undefined' || typeof navigator === 'undefined') {
+      return {
+        type: 'desktop',
+        performance: 'medium',
+        preferredMotion: true
+      }
+    }
+
     const userAgent = navigator.userAgent.toLowerCase()
     const isMobile = /mobile|android|iphone|ipad|phone/i.test(userAgent)
     const isTablet = /tablet|ipad/i.test(userAgent)
-    
+
     // Estimate performance based on device and connection
     const connection = (navigator as any).connection
     const memoryGB = (navigator as any).deviceMemory || 4
-    
+
     let performance: 'low' | 'medium' | 'high' = 'medium'
     if (memoryGB >= 8 && !isMobile) performance = 'high'
     if (memoryGB <= 2 || (connection && connection.effectiveType === '2g')) performance = 'low'

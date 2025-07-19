@@ -70,20 +70,22 @@ export function AboutSection() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 relative overflow-hidden">
-      {/* Background Effects */}
+    <section className="py-20 dynamic-surface relative overflow-hidden" style={{ background: 'var(--color-surface)' }}>
+      {/* Dynamic Background Effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(6)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-32 h-32 border border-primary-200/30 rounded-full"
+            className="absolute w-32 h-32 border rounded-full"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
+              borderColor: 'var(--color-primary)',
+              opacity: 0.2
             }}
             animate={{
               scale: [1, 1.2, 1],
-              opacity: [0.3, 0.6, 0.3],
+              opacity: [0.1, 0.3, 0.1],
               rotate: [0, 180, 360],
             }}
             transition={{
@@ -176,18 +178,18 @@ export function AboutSection() {
                 intensity="subtle"
               >
                 <KineticCard variant="tilt" className="h-full">
-                  <AdvancedCard effect={competency.color as 'hologram' | 'neon' | 'glass' | 'magnetic' | 'liquid'} className="p-6 h-full">
+                  <AdvancedCard effect={competency.color as 'hologram' | 'neon' | 'glass' | 'magnetic' | 'liquid'} className="dynamic-card p-6 h-full">
                     <div className="flex items-start gap-4">
                       <KineticContainer variant="orbital" intensity="subtle">
-                        <div className="p-3 bg-primary-100 rounded-lg">
-                          <competency.icon className="h-6 w-6 text-primary-600" />
+                        <div className="p-3 rounded-lg" style={{ backgroundColor: 'var(--color-primary)20' }}>
+                          <competency.icon className="h-6 w-6" style={{ color: 'var(--color-primary)' }} />
                         </div>
                       </KineticContainer>
                       <div>
-                        <h4 className="text-xl font-semibold mb-2">
+                        <h4 className="text-xl font-semibold mb-2 dynamic-heading" style={{ color: 'var(--color-text)' }}>
                           {competency.title}
                         </h4>
-                        <p className="text-slate-600">{competency.description}</p>
+                        <p className="dynamic-text-secondary" style={{ color: 'var(--color-textSecondary)' }}>{competency.description}</p>
                       </div>
                     </div>
                   </AdvancedCard>
@@ -332,14 +334,14 @@ export function AboutSection() {
               <SectionQuote category="philosophy" />
             </div>
 
-            <p className="text-lg text-slate-700 leading-relaxed mb-6">
+            <p className="text-lg dynamic-text leading-relaxed mb-6" style={{ color: 'var(--color-text)' }}>
               My coding odyssey began in 2004 during the dynamic web revolution—when XHTML was emerging
               and every line of code was an experiment. Through two decades of trial and error, breakthrough
               moments, and relentless hands-on exploration, I've evolved from crafting static pages to
               architecting dynamic, full-stack applications with modern frameworks and cloud infrastructure.
             </p>
 
-            <p className="text-lg text-slate-700 leading-relaxed mb-6">
+            <p className="text-lg dynamic-text leading-relaxed mb-6" style={{ color: 'var(--color-text)' }}>
               This 20-year journey—from DHTML's early interactivity to React's virtual DOM, from server-side
               includes to today's AI-powered applications—has forged an understanding that transcends any
               single technology. My expertise isn't just theoretical knowledge from courses or certifications;
@@ -347,7 +349,7 @@ export function AboutSection() {
               innovating across every layer of the web stack.
             </p>
 
-            <p className="text-lg text-slate-700 leading-relaxed">
+            <p className="text-lg dynamic-text leading-relaxed" style={{ color: 'var(--color-text)' }}>
               As a Cisco Cyber Threat Manager (CyberTM), CyberOps Associate, and Verified Ethical Hacker,
               I now apply this deep technical foundation to cybersecurity, where my historical perspective
               on web vulnerabilities—from the early days of form exploits to modern API security—provides

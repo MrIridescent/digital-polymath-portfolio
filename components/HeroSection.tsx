@@ -11,7 +11,7 @@ import { KineticBackground } from './KineticSystem'
 
 export function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden" style={{ background: 'var(--color-background)' }}>
       {/* Kinetic Background System */}
       <KineticBackground variant="neural" intensity="medium" />
       <KineticBackground variant="particles" intensity="subtle" />
@@ -142,9 +142,11 @@ export function HeroSection() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <GlitchText className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary-600">
-                Senior Full Stack Developer | Cyber Threat Manager | Computer Scientist
-              </GlitchText>
+              <div className="text-xl sm:text-2xl md:text-3xl font-semibold dynamic-accent" style={{ color: 'var(--color-primary)' }}>
+                <GlitchText>
+                  Senior Full Stack Developer | Cyber Threat Manager | Computer Scientist
+                </GlitchText>
+              </div>
             </motion.div>
 
             <motion.p
