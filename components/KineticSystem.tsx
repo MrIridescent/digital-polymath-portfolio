@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform, useSpring, useInView } from 'framer-motion'
 import { useRef, useEffect, useState } from 'react'
+import React from 'react'
 
 // Kinetic Philosophy: "Motion with Purpose" - Every animation serves intentionality
 
@@ -110,14 +111,20 @@ interface KineticTextProps {
   className?: string
 }
 
-export function KineticText({ 
-  children, 
-  variant = 'wave', 
+export function KineticText({
+  children,
+  variant = 'wave',
   speed = 'medium',
-  className = '' 
+  className = ''
 }: KineticTextProps) {
   const [displayText, setDisplayText] = useState('')
-  const text = typeof children === 'string' ? children : ''
+
+  // Safely extract text from children
+  const text = React.isValidElement(children)
+    ? (children.props?.children || '')
+    : typeof children === 'string'
+    ? children
+    : String(children || '')
   
   const speedConfig = {
     slow: 150,
@@ -271,14 +278,18 @@ export function KineticBackground({
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({
-        x: e.clientX / window.innerWidth,
-        y: e.clientY / window.innerHeight
-      })
+      if (typeof window !== 'undefined') {
+        setMousePosition({
+          x: e.clientX / window.innerWidth,
+          y: e.clientY / window.innerHeight
+        })
+      }
     }
 
-    window.addEventListener('mousemove', handleMouseMove)
-    return () => window.removeEventListener('mousemove', handleMouseMove)
+    if (typeof window !== 'undefined') {
+      window.addEventListener('mousemove', handleMouseMove)
+      return () => window.removeEventListener('mousemove', handleMouseMove)
+    }
   }, [])
 
   const particleCount = {
@@ -296,14 +307,14 @@ export function KineticBackground({
             className="absolute w-1 h-1 bg-cyan-400 rounded-full opacity-60"
             animate={{
               x: [
-                Math.random() * window.innerWidth,
-                Math.random() * window.innerWidth,
-                Math.random() * window.innerWidth
+                Math.random() * 1200,
+                Math.random() * 1200,
+                Math.random() * 1200
               ],
               y: [
-                Math.random() * window.innerHeight,
-                Math.random() * window.innerHeight,
-                Math.random() * window.innerHeight
+                Math.random() * 800,
+                Math.random() * 800,
+                Math.random() * 800
               ],
               scale: [0.5, 1, 0.5],
               opacity: [0.3, 0.8, 0.3]

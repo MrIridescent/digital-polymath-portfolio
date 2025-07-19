@@ -6,7 +6,7 @@ import { SpectacularText } from './SpectacularText'
 import { AdvancedCard } from './AdvancedCard'
 import { SectionQuote } from './PolymathQuotes'
 import { TechEvolutionTimeline } from './TechEvolutionTimeline'
-import { KineticContainer, KineticCard, KineticText } from './KineticSystem'
+import { KineticContainer, KineticCard } from './KineticSystem'
 
 export function AboutSection() {
   const certifications = [
@@ -184,9 +184,7 @@ export function AboutSection() {
                       </KineticContainer>
                       <div>
                         <h4 className="text-xl font-semibold mb-2">
-                          <KineticText variant="glitch">
-                            {competency.title}
-                          </KineticText>
+                          {competency.title}
                         </h4>
                         <p className="text-slate-600">{competency.description}</p>
                       </div>

@@ -183,9 +183,9 @@ export function PolymathQuoteTicker({
     : polymathQuotes.filter(quote => quote.category === category)
 
   const speedConfig = {
-    slow: 8000,
-    medium: 6000,
-    fast: 4000
+    slow: 12000,  // Slower for better readability
+    medium: 8000,
+    fast: 5000
   }
 
   useEffect(() => {
@@ -205,8 +205,8 @@ export function PolymathQuoteTicker({
           key={currentQuoteIndex}
           initial={{ x: '100%' }}
           animate={{ x: '-100%' }}
-          transition={{ 
-            duration: speedConfig[speed] / 1000,
+          transition={{
+            duration: speed === 'slow' ? 25 : speedConfig[speed] / 1000,  // Much slower for readability
             ease: 'linear',
             repeat: Infinity
           }}
@@ -276,10 +276,10 @@ export function HeroQuote() {
 
 export function FooterQuote() {
   return (
-    <PolymathQuoteTicker 
-      variant="horizontal" 
-      category="philosophy" 
-      speed="medium"
+    <PolymathQuoteTicker
+      variant="horizontal"
+      category="philosophy"
+      speed="slow"
       className="mt-8"
     />
   )

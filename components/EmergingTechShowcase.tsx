@@ -25,7 +25,7 @@ import { SpectacularText } from './SpectacularText'
 import { AdvancedCard } from './AdvancedCard'
 import { SectionQuote } from './PolymathQuotes'
 import { AnimatedIcon } from './AnimatedIcons'
-import { KineticContainer, KineticCard, KineticText } from './KineticSystem'
+import { KineticContainer, KineticCard } from './KineticSystem'
 
 interface TechTrend {
   id: string
@@ -163,9 +163,7 @@ export function EmergingTechShowcase({
                       />
                     </KineticContainer>
                     <h3 className="text-sm md:text-base font-semibold mb-2">
-                      <KineticText variant="matrix">
-                        {tech.title}
-                      </KineticText>
+                      {tech.title}
                     </h3>
                     <p className="text-xs text-slate-600 mb-2">{tech.timeline}</p>
                     <div className="flex flex-wrap gap-1 justify-center">

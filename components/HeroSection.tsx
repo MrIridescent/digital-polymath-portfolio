@@ -7,7 +7,7 @@ import { SpectacularText, GlitchText } from './SpectacularText'
 import { SpectacularButton } from './SpectacularButton'
 import { ProfileImage } from './ProfileImage'
 import { HeroQuote } from './PolymathQuotes'
-import { KineticContainer, KineticText, KineticBackground } from './KineticSystem'
+import { KineticBackground } from './KineticSystem'
 
 export function HeroSection() {
   return (
@@ -119,9 +119,7 @@ export function HeroSection() {
                 effect="neon"
                 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight"
               >
-                <KineticText variant="wave" speed="medium">
-                  David Akpoviroro OKE
-                </KineticText>
+                David Akpoviroro OKE
               </SpectacularText>
               <motion.div
                 className="mt-4"
@@ -145,9 +143,7 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <GlitchText className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary-600">
-                <KineticText variant="typewriter" speed="fast">
-                  Senior Full Stack Developer | Cyber Threat Manager | Computer Scientist
-                </KineticText>
+                Senior Full Stack Developer | Cyber Threat Manager | Computer Scientist
               </GlitchText>
             </motion.div>
 
