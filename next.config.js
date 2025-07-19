@@ -7,10 +7,8 @@ const nextConfig = {
   assetPrefix: '', // Add your domain here if using CDN, e.g., 'https://yourdomain.com'
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
-    // Enable advanced optimizations
-    optimizeCss: true,
-    serverComponentsExternalPackages: ['three'],
   },
+  serverExternalPackages: ['three'],
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -34,12 +32,9 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   // Ultra-fast SSR optimizations
-  swcMinify: true,
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
-  // Performance optimizations
-  optimizeFonts: true,
   modularizeImports: {
     'lucide-react': {
       transform: 'lucide-react/dist/esm/icons/{{member}}',

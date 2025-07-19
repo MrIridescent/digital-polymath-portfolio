@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { Menu, X, Code, User, Mail, Brain, BookOpen, Target, FileText, Zap } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { KineticContainer, KineticText } from './KineticSystem'
 
 const navigation = [
   { name: 'About', href: '/about', icon: User },

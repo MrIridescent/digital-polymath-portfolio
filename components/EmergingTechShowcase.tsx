@@ -25,6 +25,7 @@ import { SpectacularText } from './SpectacularText'
 import { AdvancedCard } from './AdvancedCard'
 import { SectionQuote } from './PolymathQuotes'
 import { AnimatedIcon } from './AnimatedIcons'
+import { KineticContainer, KineticCard, KineticText } from './KineticSystem'
 
 interface TechTrend {
   id: string
@@ -142,37 +143,44 @@ export function EmergingTechShowcase({
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             {emergingTechnologies.map((tech, index) => (
-              <motion.div
+              <KineticContainer
                 key={tech.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                variant={['flow', 'pulse', 'magnetic', 'quantum'][index % 4] as any}
+                intensity="subtle"
                 className="h-full"
               >
-                <AdvancedCard 
-                  effect={tech.color as any} 
-                  className="p-4 h-full text-center hover:scale-105 transition-transform duration-300"
-                >
-                  <AnimatedIcon
-                    icon={<tech.icon />}
-                    animation="pulse"
-                    size="lg"
-                    className="text-primary-600 mx-auto mb-3"
-                  />
-                  <h3 className="text-sm md:text-base font-semibold mb-2">{tech.title}</h3>
-                  <p className="text-xs text-slate-600 mb-2">{tech.timeline}</p>
-                  <div className="flex flex-wrap gap-1 justify-center">
-                    {tech.applications.slice(0, 2).map((app) => (
-                      <span 
-                        key={app}
-                        className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded-full"
-                      >
-                        {app}
-                      </span>
-                    ))}
-                  </div>
-                </AdvancedCard>
-              </motion.div>
+                <KineticCard variant="glow" className="h-full">
+                  <AdvancedCard
+                    effect={tech.color as any}
+                    className="p-4 h-full text-center"
+                  >
+                    <KineticContainer variant="orbital" intensity="medium">
+                      <AnimatedIcon
+                        icon={<tech.icon />}
+                        animation="pulse"
+                        size="lg"
+                        className="text-primary-600 mx-auto mb-3"
+                      />
+                    </KineticContainer>
+                    <h3 className="text-sm md:text-base font-semibold mb-2">
+                      <KineticText variant="matrix">
+                        {tech.title}
+                      </KineticText>
+                    </h3>
+                    <p className="text-xs text-slate-600 mb-2">{tech.timeline}</p>
+                    <div className="flex flex-wrap gap-1 justify-center">
+                      {tech.applications.slice(0, 2).map((app) => (
+                        <span
+                          key={app}
+                          className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded-full"
+                        >
+                          {app}
+                        </span>
+                      ))}
+                    </div>
+                  </AdvancedCard>
+                </KineticCard>
+              </KineticContainer>
             ))}
           </div>
         </div>

@@ -4,18 +4,6 @@ import './globals.css'
 import { Suspense } from 'react'
 import dynamic from 'next/dynamic'
 
-// Dynamic imports for non-critical components
-const LazyNavigation = dynamic(() => import('@/components/Navigation'), {
-  ssr: true, // Keep navigation for SEO
-})
-
-const LazyFooter = dynamic(() => import('@/components/Footer'), {
-  ssr: false, // Footer can load after
-})
-
-const LazyPerformanceMonitor = dynamic(() => import('@/components/PerformanceMonitor'), {
-  ssr: false, // Client-side only
-})
 import { Navigation } from '@/components/Navigation'
 import { Footer } from '@/components/Footer'
 
@@ -74,39 +62,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <body className="font-sans antialiased">
-        <Suspense fallback={
-          <div className="h-16 bg-white border-b border-slate-200 animate-pulse">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
-              <div className="h-8 w-32 bg-slate-200 rounded"></div>
-              <div className="flex space-x-4">
-                <div className="h-6 w-16 bg-slate-200 rounded"></div>
-                <div className="h-6 w-16 bg-slate-200 rounded"></div>
-                <div className="h-6 w-16 bg-slate-200 rounded"></div>
-              </div>
-            </div>
-          </div>
-        }>
-          <LazyNavigation />
-        </Suspense>
+        <Navigation />
 
         <main className="min-h-screen">
           {children}
         </main>
 
-        <Suspense fallback={
-          <div className="h-32 bg-slate-100 animate-pulse">
-            <div className="max-w-7xl mx-auto px-4 py-8">
-              <div className="h-4 bg-slate-200 rounded w-1/4 mx-auto"></div>
-            </div>
-          </div>
-        }>
-          <LazyFooter />
-        </Suspense>
-
-        {/* Performance monitoring in development */}
-        {process.env.NODE_ENV === 'development' && (
-          <LazyPerformanceMonitor />
-        )}
+        <Footer />
       </body>
     </html>
   )

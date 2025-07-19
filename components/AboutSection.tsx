@@ -6,6 +6,7 @@ import { SpectacularText } from './SpectacularText'
 import { AdvancedCard } from './AdvancedCard'
 import { SectionQuote } from './PolymathQuotes'
 import { TechEvolutionTimeline } from './TechEvolutionTimeline'
+import { KineticContainer, KineticCard, KineticText } from './KineticSystem'
 
 export function AboutSection() {
   const certifications = [
@@ -168,24 +169,31 @@ export function AboutSection() {
           <h3 className="text-3xl font-bold text-center mb-12">Core Competencies</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {coreCompetencies.map((competency, index) => (
-              <motion.div
+              <KineticContainer
                 key={competency.title}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.1 }}
+                variant={['magnetic', 'pulse', 'flow'][index % 3] as any}
+                intensity="subtle"
               >
-                <AdvancedCard effect={competency.color as 'hologram' | 'neon' | 'glass' | 'magnetic' | 'liquid'} className="p-6 h-full">
-                  <div className="flex items-start gap-4">
-                    <div className="p-3 bg-primary-100 rounded-lg">
-                      <competency.icon className="h-6 w-6 text-primary-600" />
+                <KineticCard variant="tilt" className="h-full">
+                  <AdvancedCard effect={competency.color as 'hologram' | 'neon' | 'glass' | 'magnetic' | 'liquid'} className="p-6 h-full">
+                    <div className="flex items-start gap-4">
+                      <KineticContainer variant="orbital" intensity="subtle">
+                        <div className="p-3 bg-primary-100 rounded-lg">
+                          <competency.icon className="h-6 w-6 text-primary-600" />
+                        </div>
+                      </KineticContainer>
+                      <div>
+                        <h4 className="text-xl font-semibold mb-2">
+                          <KineticText variant="glitch">
+                            {competency.title}
+                          </KineticText>
+                        </h4>
+                        <p className="text-slate-600">{competency.description}</p>
+                      </div>
                     </div>
-                    <div>
-                      <h4 className="text-xl font-semibold mb-2">{competency.title}</h4>
-                      <p className="text-slate-600">{competency.description}</p>
-                    </div>
-                  </div>
-                </AdvancedCard>
-              </motion.div>
+                  </AdvancedCard>
+                </KineticCard>
+              </KineticContainer>
             ))}
           </div>
         </motion.div>
