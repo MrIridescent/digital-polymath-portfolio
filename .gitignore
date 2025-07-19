@@ -10,6 +10,7 @@ yarn-error.log*
 # Production builds
 build/
 dist/
+out/
 
 # Environment variables
 .env
@@ -85,3 +86,6 @@ jspm_packages/
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# Local Netlify folder
+.netlify

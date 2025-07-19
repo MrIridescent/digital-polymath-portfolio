@@ -10,6 +10,7 @@
     "type-check": "tsc --noEmit",
     "format": "prettier --write .",
     "analyze": "cross-env ANALYZE=true next build",
+    "deploy": "npm run build && echo 'Static files ready in ./out folder for any hosting!'",
     "netlify": "npm run build && echo 'Build completed for Netlify deployment'"
   },
   "dependencies": {

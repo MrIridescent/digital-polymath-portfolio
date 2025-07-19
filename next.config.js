@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove static export for SSR
-  // output: 'export', // Commented out for SSR
+  // Enable static export for universal hosting compatibility
+  output: 'export',
+  distDir: 'out',
   trailingSlash: true,
   basePath: '', // Add your subdirectory here if needed, e.g., '/portfolio'
   assetPrefix: '', // Add your domain here if using CDN, e.g., 'https://yourdomain.com'
