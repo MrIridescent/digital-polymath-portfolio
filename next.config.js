@@ -69,9 +69,19 @@ const nextConfig = {
   },
 }
 
-// Bundle analyzer
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
-})
+// Bundle analyzer (optional for production builds)
+let finalConfig = nextConfig
 
-module.exports = withBundleAnalyzer(nextConfig)
+try {
+  if (process.env.ANALYZE === 'true') {
+    const withBundleAnalyzer = require('@next/bundle-analyzer')({
+      enabled: true,
+    })
+    finalConfig = withBundleAnalyzer(nextConfig)
+  }
+} catch (error) {
+  // Bundle analyzer not available, continue without it
+  console.log('Bundle analyzer not available, continuing without analysis')
+}
+
+module.exports = finalConfig
