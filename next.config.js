@@ -8,8 +8,10 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
     scrollRestoration: true,
-    skipTrailingSlashRedirect: true,
   },
+
+  // Move skipTrailingSlashRedirect to root level
+  skipTrailingSlashRedirect: true,
   // Turbopack configuration (stable)
   turbopack: {
     rules: {

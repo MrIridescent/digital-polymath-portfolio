@@ -44,13 +44,29 @@ export function StructuredData({ type = 'person', data }: StructuredDataProps) {
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "Digital Services",
-          "itemListElement": seoConfig.business.services.map(service => ({
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": service
-            }
-          }))
+          "itemListElement": [
+            ...(seoConfig.business.globalServices || []).map(service => ({
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": service
+              }
+            })),
+            ...(seoConfig.business.nigerianServices || []).map(service => ({
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": service
+              }
+            })),
+            ...(seoConfig.business.governmentServices || []).map(service => ({
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": service
+              }
+            }))
+          ]
         }
       }
       break

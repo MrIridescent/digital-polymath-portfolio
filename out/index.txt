@@ -1,9 +1,8 @@
 1:"$Sreact.fragment"
 a:I[8393,[],""]
-:HL["/_next/static/css/ad14d9786b084ae2.css","style"]
-:HL["/_next/static/css/fee6596e9f8c97ac.css","style"]
+:HL["/_next/static/css/7cc87ed75d37e98f.css","style"]
 :HL["/_next/static/css/817f928b730d3364.css","style"]
-2:Tb50,{
+2:T1426,{
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "David Akpoviroro Oke",
@@ -25,16 +24,59 @@ a:I[8393,[],""]
     "Technology Consultant",
     "Creative Director"
   ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lagos",
+    "addressRegion": "Lagos State",
+    "addressCountry": "Nigeria",
+    "addressCountryCode": "NG"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Lagos",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Lagos State"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Abuja"
+    },
+    {
+      "@type": "Country",
+      "name": "Nigeria"
+    },
+    {
+      "@type": "Place",
+      "name": "Global"
+    }
+  ],
   "worksFor": [
     {
       "@type": "Organization",
       "name": "Zandbox Global",
-      "description": "Full Stack Engineer developing scalable fintech products"
+      "description": "Full Stack Engineer developing scalable fintech products",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Nigeria"
+      }
     },
     {
       "@type": "Organization",
       "name": "Iridescent Internet Solutions Limited",
-      "description": "Founder & CEO leading digital transformation projects"
+      "description": "Founder & CEO leading digital transformation projects in Lagos and across Nigeria",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lagos",
+        "addressRegion": "Lagos State",
+        "addressCountry": "Nigeria"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Lagos, Nigeria & Global"
+      }
     }
   ],
   "alumniOf": {
@@ -78,48 +120,79 @@ a:I[8393,[],""]
     "Multiple Intelligences",
     "Polymathic Thinking"
   ],
-  "offers": {
-    "@type": "Service",
-    "name": "Digital Transformation & Technology Consulting",
-    "description": "Comprehensive technology solutions including full stack development, AI implementation, cybersecurity, and creative design services",
-    "provider": {
-      "@type": "Person",
-      "name": "David Akpoviroro Oke"
+  "offers": [
+    {
+      "@type": "Service",
+      "name": "Lagos Web Development Services",
+      "description": "Professional web development services for Lagos businesses including e-commerce, corporate websites, and web applications",
+      "provider": {
+        "@type": "Person",
+        "name": "David Akpoviroro Oke"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Lagos",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "Nigeria"
+        }
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceType": "On-site & Remote Consulting",
+        "availableLanguage": [
+          "English",
+          "Yoruba"
+        ]
+      },
+      "category": "Web Development",
+      "serviceType": "Professional Service"
     },
-    "areaServed": "Global",
-    "availableChannel": {
-      "@type": "ServiceChannel",
-      "serviceType": "Remote Consulting",
-      "availableLanguage": "English"
+    {
+      "@type": "Service",
+      "name": "Nigerian Fintech Development",
+      "description": "Specialized fintech solutions for Nigerian businesses including payment systems, banking apps, and financial dashboards",
+      "provider": {
+        "@type": "Person",
+        "name": "David Akpoviroro Oke"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Nigeria"
+      },
+      "category": "Fintech Development",
+      "serviceType": "Software Development"
+    },
+    {
+      "@type": "Service",
+      "name": "Digital Transformation & Technology Consulting",
+      "description": "Comprehensive technology solutions including full stack development, AI implementation, cybersecurity, and creative design services",
+      "provider": {
+        "@type": "Person",
+        "name": "David Akpoviroro Oke"
+      },
+      "areaServed": "Global",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceType": "Remote Consulting",
+        "availableLanguage": "English"
+      }
     }
-  }
-}0:{"P":null,"b":"JIbavNhSzOx5rmaY7vhN9","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ad14d9786b084ae2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/fee6596e9f8c97ac.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/817f928b730d3364.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_e8ce0c __variable_694534","children":[["$","head",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],"$L6"]}]]}],{"children":["__PAGE__","$L7",{},null,false]},["$L8",[],[]],false],"$L9",false]],"m":"$undefined","G":["$a",[]],"s":false,"S":true}
-d:I[4403,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","678","static/chunks/678-7314b4d393f870ce.js","767","static/chunks/767-d9b8ab98265ffec0.js","403","static/chunks/403-18f117bf49494a91.js","177","static/chunks/app/layout-8bb06976a2356b8c.js"],"DynamicLayoutSystem"]
-e:I[7555,[],""]
-f:I[690,["874","static/chunks/874-437a265a67d6cfee.js","39","static/chunks/app/error-4fa82eb0bed42790.js"],"default"]
-10:I[1295,[],""]
-11:I[6874,["874","static/chunks/874-437a265a67d6cfee.js","345","static/chunks/app/not-found-3bba405086ece463.js"],""]
-12:I[7577,["874","static/chunks/874-437a265a67d6cfee.js","345","static/chunks/app/not-found-3bba405086ece463.js"],"BackButton"]
-13:I[4826,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"FloatingIconsBackground"]
-14:I[7081,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"HeroSection"]
-15:I[7950,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"AboutSection"]
-16:I[4373,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"CyberThreatShowcase"]
-17:I[302,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"EmergingTechShowcase"]
-18:I[6608,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"SkillsMatrix"]
-19:I[8198,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"NewsletterSignup"]
-1a:I[7512,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"CTASection"]
-1b:I[3240,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"GlobalCTA"]
-1c:I[1770,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"HireMeShare"]
-1d:I[1770,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"SocialSharing"]
-1e:I[8540,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"ClientOnly"]
-1f:I[961,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","17","static/chunks/17-d64b92dd8812031f.js","457","static/chunks/457-31aac9b7cf1f8c54.js","767","static/chunks/767-d9b8ab98265ffec0.js","347","static/chunks/347-806bb079fbe02498.js","608","static/chunks/608-300b7d41025d0ba5.js","974","static/chunks/app/page-88d4b939153277d8.js"],"ThemeSelector"]
-20:I[9665,[],"OutletBoundary"]
-22:I[4911,[],"AsyncMetadataOutlet"]
-24:I[9665,[],"ViewportBoundary"]
-26:I[9665,[],"MetadataBoundary"]
-27:"$Sreact.suspense"
+  ]
+}0:{"P":null,"b":"bPB1lh_s1QXU6Nmtwf1Dp","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7cc87ed75d37e98f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/817f928b730d3364.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"font-sans","children":[["$","head",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],"$L6"]}]]}],{"children":["__PAGE__","$L7",{},null,false]},["$L8",[],[]],false],"$L9",false]],"m":"$undefined","G":["$a",[]],"s":false,"S":true}
+d:I[8208,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","276","static/chunks/276-7ec3a9d84f6b4acd.js","455","static/chunks/455-a0910f704e3a2e68.js","177","static/chunks/app/layout-5884aa7fbba28a2a.js"],"GlobalProtectionProvider"]
+e:I[5259,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","276","static/chunks/276-7ec3a9d84f6b4acd.js","455","static/chunks/455-a0910f704e3a2e68.js","177","static/chunks/app/layout-5884aa7fbba28a2a.js"],"default"]
+f:I[6637,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","276","static/chunks/276-7ec3a9d84f6b4acd.js","455","static/chunks/455-a0910f704e3a2e68.js","177","static/chunks/app/layout-5884aa7fbba28a2a.js"],"DynamicLayoutSystem"]
+10:I[7555,[],""]
+11:I[690,["95","static/chunks/95-dff15d693e9992af.js","39","static/chunks/app/error-40c6996307098679.js"],"default"]
+12:I[1295,[],""]
+13:I[6874,["95","static/chunks/95-dff15d693e9992af.js","345","static/chunks/app/not-found-5436e7c648ab87e4.js"],""]
+14:I[7577,["95","static/chunks/95-dff15d693e9992af.js","345","static/chunks/app/not-found-5436e7c648ab87e4.js"],"BackButton"]
+23:I[9665,[],"ViewportBoundary"]
+25:I[9665,[],"MetadataBoundary"]
+26:"$Sreact.suspense"
 3:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebSite\",\n  \"name\": \"Mr. Iridescent - Digital Polymat\",\n  \"url\": \"https://mriridescent-digitalpolymat.netlify.app\",\n  \"description\": \"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert. 20+ years coding experience, Cisco-verified security professional. Hire me for transformative digital solutions.\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"David Akpoviroro Oke\"\n  },\n  \"potentialAction\": {\n    \"@type\": \"SearchAction\",\n    \"target\": {\n      \"@type\": \"EntryPoint\",\n      \"urlTemplate\": \"https://mriridescent-digitalpolymat.netlify.app/search?q={search_term_string}\"\n    },\n    \"query-input\": \"required name=search_term_string\"\n  }\n}"}}]
-b:T92b,{
+b:T1842,{
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Iridescent Internet Solutions Limited",
@@ -160,56 +233,224 @@ b:T92b,{
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Full Stack Development"
+          "name": "International Software Development"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "AI Engineering & Implementation"
+          "name": "Global AI Engineering & Implementation"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Cybersecurity Consulting"
+          "name": "Worldwide Cybersecurity Consulting"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Digital Transformation"
+          "name": "International Digital Transformation"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "UI/UX Design & Branding"
+          "name": "Global UI/UX Design & Branding"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Video Production & Editing"
+          "name": "Remote Team Leadership & Management"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Remote Team Leadership"
+          "name": "International Technology Consulting"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Technology Consulting"
+          "name": "Global Fintech Solutions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Worldwide E-commerce Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "International Mobile App Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Global Cloud Architecture"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Remote DevSecOps Engineering"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Lagos/Abuja/Port Harcourt Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Nigerian Government IT Solutions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Federal Contract Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Military & Defense Software"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Nigerian Banking & Fintech"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Government Digital Transformation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Federal Compliance Systems"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Nigerian Business Automation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "West Africa Tech Solutions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Nigerian Startup Consulting"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Federal IT Contracting"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Military Software Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Government System Integration"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Defense Technology Solutions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Federal Cybersecurity Services"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Government Database Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Military Training Applications"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Federal Compliance Software"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Government Workflow Automation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Defense Logistics Systems"
         }
       }
     ]
@@ -261,44 +502,260 @@ c:T7b9,{
     }
   ]
 }5:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$c"}}]
-6:["$","body",null,{"className":"font-sans antialiased overflow-x-hidden","suppressHydrationWarning":true,"children":["$","$Ld",null,{"children":["$","$Le",null,{"parallelRouterKey":"children","error":"$f","errorStyles":[],"errorScripts":[],"template":["$","$L10",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50 px-4","children":["$","div",null,{"className":"text-center max-w-md","children":[["$","div",null,{"className":"w-24 h-24 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-8","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-search h-12 w-12 text-primary-600","children":[["$","circle","4ej97u",{"cx":"11","cy":"11","r":"8"}],["$","path","1qie3q",{"d":"m21 21-4.3-4.3"}],"$undefined"]}]}],["$","h1",null,{"className":"text-6xl font-bold text-slate-900 mb-4","children":"404"}],["$","h2",null,{"className":"text-2xl font-bold text-slate-900 mb-4","children":"Page Not Found"}],["$","p",null,{"className":"text-slate-600 mb-8","children":"The page you're looking for doesn't exist or has been moved. Let's get you back on track."}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-4 justify-center","children":[["$","$L11",null,{"href":"/","className":"inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-house h-4 w-4","children":[["$","path","5wwlr5",{"d":"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"}],["$","path","1d0kgt",{"d":"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],"$undefined"]}],"Go Home"]}],["$","$L12",null,{}]]}],["$","div",null,{"className":"mt-12","children":[["$","p",null,{"className":"text-sm text-slate-500 mb-4","children":"Popular pages:"}],["$","div",null,{"className":"flex flex-wrap gap-2 justify-center","children":[["$","$L11",null,{"href":"/about","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"About"}],["$","$L11",null,{"href":"/philosophy","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Philosophy"}],["$","$L11",null,{"href":"/case-studies","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Case Studies"}],["$","$L11",null,{"href":"/writings","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Writings"}],["$","$L11",null,{"href":"/contact","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Contact"}]]}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]
-7:["$","$1","c",{"children":[["$","div",null,{"className":"pt-16 relative","children":[["$","$L13",null,{}],["$","$L14",null,{}],["$","$L15",null,{}],["$","$L16",null,{}],["$","$L17",null,{"variant":"compact","showQuotes":true}],["$","$L18",null,{}],["$","div",null,{"className":"py-16 bg-slate-50","children":["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","$L19",null,{}]}]}],["$","$L1a",null,{}],["$","$L1b",null,{"variant":"primary","position":"bottom","showStats":true}],["$","div",null,{"className":"py-16 bg-gradient-to-r from-slate-50 to-blue-50","children":["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","$L1c",null,{}]}]}],["$","$L1d",null,{"variant":"floating"}],["$","$L1e",null,{"children":["$","$L1f",null,{}]}]]}],null,["$","$L20",null,{"children":["$L21",["$","$L22",null,{"promise":"$@23"}]]}]]}]
+6:["$","body",null,{"className":"font-sans antialiased overflow-x-hidden","suppressHydrationWarning":true,"children":["$","$Ld",null,{"children":["$","$Le",null,{"level":4,"children":["$","$Lf",null,{"children":["$","$L10",null,{"parallelRouterKey":"children","error":"$11","errorStyles":[],"errorScripts":[],"template":["$","$L12",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50 px-4","children":["$","div",null,{"className":"text-center max-w-md","children":[["$","div",null,{"className":"w-24 h-24 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-8","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-search h-12 w-12 text-primary-600","children":[["$","circle","4ej97u",{"cx":"11","cy":"11","r":"8"}],["$","path","1qie3q",{"d":"m21 21-4.3-4.3"}],"$undefined"]}]}],["$","h1",null,{"className":"text-6xl font-bold text-slate-900 mb-4","children":"404"}],["$","h2",null,{"className":"text-2xl font-bold text-slate-900 mb-4","children":"Page Not Found"}],["$","p",null,{"className":"text-slate-600 mb-8","children":"The page you're looking for doesn't exist or has been moved. Let's get you back on track."}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-4 justify-center","children":[["$","$L13",null,{"href":"/","className":"inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-house h-4 w-4","children":[["$","path","5wwlr5",{"d":"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"}],["$","path","1d0kgt",{"d":"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],"$undefined"]}],"Go Home"]}],["$","$L14",null,{}]]}],["$","div",null,{"className":"mt-12","children":[["$","p",null,{"className":"text-sm text-slate-500 mb-4","children":"Popular pages:"}],["$","div",null,{"className":"flex flex-wrap gap-2 justify-center","children":[["$","$L13",null,{"href":"/about","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"About"}],["$","$L13",null,{"href":"/philosophy","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Philosophy"}],["$","$L13",null,{"href":"/case-studies","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Case Studies"}],["$","$L13",null,{"href":"/writings","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Writings"}],["$","$L13",null,{"href":"/contact","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Contact"}]]}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]
+15:Tfac,{
+  "@context": "https://schema.org",
+  "@type": [
+    "Organization",
+    "LocalBusiness",
+    "ProfessionalService"
+  ],
+  "name": "David Akpoviroro Oke - Digital Polymat",
+  "alternateName": [
+    "Mr. Iridescent",
+    "Iridescent Internet Solutions Limited"
+  ],
+  "description": "Global software development and digital transformation consultant with strategic focus on Nigerian markets and government contracts",
+  "url": "https://mriridescent-digitalpolymat.netlify.app",
+  "email": "mriridescent@yahoo.com",
+  "foundingDate": "2017",
+  "founder": {
+    "@type": "Person",
+    "name": "David Akpoviroro Oke",
+    "alternateName": "Mr. Iridescent",
+    "jobTitle": "Digital Polymat & Full Stack Engineer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Iridescent Internet Solutions Limited"
+    }
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lagos",
+    "addressRegion": "Lagos State",
+    "addressCountry": "Nigeria",
+    "addressCountryCode": "NG"
+  },
+  "areaServed": [
+    {
+      "@type": "Place",
+      "name": "Global"
+    },
+    {
+      "@type": "Country",
+      "name": "Nigeria"
+    },
+    {
+      "@type": "City",
+      "name": "Lagos"
+    },
+    {
+      "@type": "City",
+      "name": "Abuja"
+    },
+    {
+      "@type": "City",
+      "name": "Port Harcourt"
+    },
+    {
+      "@type": "Place",
+      "name": "United States"
+    },
+    {
+      "@type": "Place",
+      "name": "United Kingdom"
+    },
+    {
+      "@type": "Place",
+      "name": "Canada"
+    },
+    {
+      "@type": "Place",
+      "name": "West Africa"
+    }
+  ],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "6.5244",
+      "longitude": "3.3792"
+    },
+    "geoRadius": "20000000"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Global Digital Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Global Software Development",
+          "description": "International software development services for businesses worldwide"
+        },
+        "areaServed": "Global"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Nigerian Government IT Solutions",
+          "description": "Specialized IT solutions for Nigerian federal, state, and local government agencies"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Nigeria"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Military & Defense Software",
+          "description": "Secure software solutions for military and defense organizations"
+        },
+        "category": "Defense Technology"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "International Fintech Development",
+          "description": "Global fintech solutions with expertise in Nigerian payment systems"
+        },
+        "category": "Financial Technology"
+      }
+    ]
+  },
+  "knowsAbout": [
+    "Software Development",
+    "Cybersecurity",
+    "Artificial Intelligence",
+    "Government IT Solutions",
+    "Military Software",
+    "Fintech Development",
+    "Digital Transformation",
+    "Cloud Architecture",
+    "Mobile App Development",
+    "Web Development"
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "Cisco Networking Academy"
+    },
+    {
+      "@type": "Organization",
+      "name": "University of the People"
+    }
+  ],
+  "award": [
+    "Cisco Cybersecurity Certification",
+    "Multiple Intelligence Assessment - All 9 Types",
+    "20+ Years Coding Experience"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/mriridescent",
+    "https://github.com/mriridescent",
+    "https://facebook.com/iammriridescent",
+    "https://instagram.com/mriridescent",
+    "mriridescent@yahoo.com"
+  ]
+}7:["$","$1","c",{"children":[[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$15"}}],null,"$L16","$L17","$L18","$L19","$L1a",false,false,"$L1b","$undefined","$L1c","$L1d","$L1e","$L1f","$L20"],"$L21"],null,"$L22"]}]
 8:["$","div","l",{"className":"min-h-screen flex items-center justify-center bg-slate-50","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"}],["$","p",null,{"className":"text-slate-600","children":"Loading..."}]]}]}]
-9:["$","$1","h",{"children":[null,[["$","$L24",null,{"children":"$L25"}],null],["$","$L26",null,{"children":["$","div",null,{"hidden":true,"children":["$","$27",null,{"fallback":null,"children":"$L28"}]}]}]]}]
-25:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-21:null
-29:T6f7,Digital Polymat, Full Stack Engineer, AI Engineer, Cybersecurity Expert, React Developer, Next.js Developer, TypeScript Developer, Python Developer, Java Spring Developer, DevSecOps Engineer, Cloud Architect, RAG Systems, Agentic AI, MCP Protocol, LangChain Developer, Vector Databases, Machine Learning Engineer, Deep Learning, Cisco Cybersecurity, Ethical Hacker, Threat Management, Endpoint Security, Security Automation, SAST, DAST, UI/UX Designer, Brand Identity Designer, Video Editor, Color Grading, Adobe Creative Suite, Graphic Designer, Web Designer, Mobile App Designer, Design Thinking, Systems Thinking, Creative Problem Solving, Digital Transformation Consultant, Technology Consultant, Startup Advisor, Remote Team Leader, Digital Nomad, Freelance Developer, Technical Consultant, Business Process Automation, Digital Strategy, Innovation Consultant, FinTech Developer, Healthcare Technology, EdTech Solutions, E-commerce Development, Real Estate Technology, Non-Profit Technology, Enterprise Solutions, React, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, MySQL, AWS, Google Cloud, Docker, Kubernetes, Microservices, API Development, GraphQL, REST APIs, WebSocket, Progressive Web Apps, Mobile Development, Remote Developer, Global Developer, Nigeria Developer, African Tech Expert, International Developer, Distributed Team, Remote First, Location Independent, Multiple Intelligences, Multipotentialite, Renaissance Mind, Polymathic Thinking, Creatively Divergent, Systems Thinker, Design Thinker, Innovation Leader, Logical-Mathematical Intelligence, Linguistic Intelligence, Spatial Intelligence, Musical Intelligence, Bodily-Kinesthetic Intelligence, Interpersonal Intelligence, Intrapersonal Intelligence, Naturalistic Intelligence, Existential Intelligence23:{"metadata":[["$","title","0",{"children":"Mr. Iridescent - Digital Polymat"}],["$","meta","1",{"name":"description","content":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert. 20+ years coding experience, Cisco-verified security professional. Hire me for transformative digital solutions."}],["$","meta","2",{"name":"keywords","content":"$29"}],["$","meta","3",{"name":"author","content":"David Akpoviroro Oke"}],["$","meta","4",{"name":"robots","content":"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"name":"bingbot","content":"index, follow"}],["$","meta","7",{"name":"language","content":"English"}],["$","meta","8",{"name":"revisit-after","content":"7 days"}],["$","meta","9",{"name":"distribution","content":"global"}],["$","meta","10",{"name":"rating","content":"general"}],["$","meta","11",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","12",{"name":"contact","content":"mriridescent@yahoo.com"}],["$","meta","13",{"name":"reply-to","content":"mriridescent@yahoo.com"}],["$","meta","14",{"name":"owner","content":"David Akpoviroro Oke"}],["$","meta","15",{"name":"designer","content":"David Akpoviroro Oke"}],["$","meta","16",{"name":"developer","content":"David Akpoviroro Oke"}],["$","meta","17",{"name":"geo.region","content":"NG"}],["$","meta","18",{"name":"geo.country","content":"Nigeria"}],["$","meta","19",{"name":"geo.placename","content":"Nigeria"}],["$","meta","20",{"name":"ICBM","content":"9.0820, 8.6753"}],["$","meta","21",{"name":"profession","content":"Digital Polymat, Full Stack Engineer, AI Specialist, Cybersecurity Expert"}],["$","meta","22",{"name":"skills","content":"Full Stack Development, AI Engineering, Cybersecurity, UI/UX Design, Video Production"}],["$","meta","23",{"name":"experience","content":"20+ years coding experience, 7+ years leadership"}],"$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33","$L34","$L35","$L36","$L37","$L38","$L39","$L3a","$L3b","$L3c","$L3d","$L3e","$L3f","$L40","$L41","$L42","$L43","$L44","$L45","$L46","$L47","$L48","$L49","$L4a"],"error":null,"digest":"$undefined"}
-2a:["$","meta","24",{"name":"availability","content":"Available for hire, consulting, and remote work globally"}]
-4b:T960,{"@context":"https://schema.org","@type":"Person","name":"David Akpoviroro Oke","alternateName":"Mr. Iridescent","description":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert with 20+ years of coding experience","url":"https://mriridescent-digitalpolymat.netlify.app","image":"https://mriridescent-digitalpolymat.netlify.app/images/david-oke-digital-polymat.jpg","sameAs":["https://www.linkedin.com/in/mriridescent","https://github.com/mriridescent","https://facebook.com/iammriridescent","https://instagram.com/mriridescent"],"jobTitle":["Digital Polymat","Full Stack Engineer","AI Engineer","Cybersecurity Expert","Technology Consultant","Creative Director"],"worksFor":[{"@type":"Organization","name":"Zandbox Global","description":"Full Stack Engineer developing scalable fintech products"},{"@type":"Organization","name":"Iridescent Internet Solutions Limited","description":"Founder & CEO leading digital transformation projects"}],"alumniOf":{"@type":"EducationalOrganization","name":"University of the People","description":"Bachelor of Science in Computer Science (Expected 2026)"},"hasCredential":[{"@type":"EducationalOccupationalCredential","name":"Cisco Verified Cyber Threat Management","credentialCategory":"Cybersecurity Certification"},{"@type":"EducationalOccupationalCredential","name":"Cisco Verified Ethical Hacker","credentialCategory":"Cybersecurity Certification"},{"@type":"EducationalOccupationalCredential","name":"Cisco Verified Endpoint Security Engineer","credentialCategory":"Cybersecurity Certification"},{"@type":"EducationalOccupationalCredential","name":"Cisco Verified CyberOps Associate","credentialCategory":"Cybersecurity Certification"}],"knowsAbout":["Full Stack Development","Artificial Intelligence","Machine Learning","Cybersecurity","Digital Transformation","UI/UX Design","Video Production","Remote Team Leadership","Design Thinking","Systems Thinking","Multiple Intelligences","Polymathic Thinking"],"offers":{"@type":"Service","name":"Digital Transformation & Technology Consulting","description":"Comprehensive technology solutions including full stack development, AI implementation, cybersecurity, and creative design services","provider":{"@type":"Person","name":"David Akpoviroro Oke"},"areaServed":"Global","availableChannel":{"@type":"ServiceChannel","serviceType":"Remote Consulting","availableLanguage":"English"}}}2b:["$","meta","25",{"name":"application-ld+json","content":"$4b"}]
-2c:["$","meta","26",{"name":"theme-color","content":"#3B82F6"}]
-2d:["$","meta","27",{"name":"msapplication-TileColor","content":"#3B82F6"}]
-2e:["$","meta","28",{"name":"apple-mobile-web-app-capable","content":"yes"}]
-2f:["$","meta","29",{"name":"apple-mobile-web-app-status-bar-style","content":"default"}]
-30:["$","meta","30",{"name":"format-detection","content":"telephone=no"}]
-31:["$","meta","31",{"name":"fb:app_id","content":"123456789"}]
-32:["$","meta","32",{"name":"twitter:site","content":"@mriridescent"}]
-33:["$","meta","33",{"name":"twitter:creator","content":"@mriridescent"}]
-34:["$","meta","34",{"name":"hiring-keywords","content":"hire full stack developer, hire AI engineer, hire cybersecurity expert, remote developer for hire, digital transformation consultant, technology consultant available"}]
-35:["$","meta","35",{"name":"hiring-availability","content":"Available for hire, consulting, and remote work globally"}]
-36:["$","meta","36",{"name":"work-type","content":"Remote work, contract work, full-time employment, consulting, freelance"}]
-37:["$","meta","37",{"name":"specializations","content":"Digital Polymat, Multipotentialite, Design Thinking, Systems Thinking, Multiple Intelligences"}]
-38:["$","meta","38",{"name":"canonical","content":"https://mriridescent-digitalpolymat.netlify.app"}]
-39:["$","meta","39",{"name":"alternate","content":"https://mriridescent-digitalpolymat.netlify.app/resume"}]
-3a:["$","meta","40",{"name":"next","content":"https://mriridescent-digitalpolymat.netlify.app/statistics"}]
-3b:["$","meta","41",{"name":"prev","content":"https://mriridescent-digitalpolymat.netlify.app/about"}]
-3c:["$","meta","42",{"property":"og:title","content":"Mr. Iridescent - Digital Polymat"}]
-3d:["$","meta","43",{"property":"og:description","content":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert. 20+ years coding experience, Cisco-verified security professional. Hire me for transformative digital solutions."}]
-3e:["$","meta","44",{"property":"og:url","content":"https://mriridescent-digitalpolymat.netlify.app/"}]
-3f:["$","meta","45",{"property":"og:site_name","content":"Mr. Iridescent - Digital Polymat"}]
-40:["$","meta","46",{"property":"og:locale","content":"en_US"}]
-41:["$","meta","47",{"property":"og:image","content":"https://mriridescent-digitalpolymat.netlify.app/images/david-oke-digital-polymat.jpg"}]
-42:["$","meta","48",{"property":"og:image:width","content":"1200"}]
-43:["$","meta","49",{"property":"og:image:height","content":"630"}]
-44:["$","meta","50",{"property":"og:image:alt","content":"David Akpoviroro Oke - Mr. Iridescent - Digital Polymat"}]
-45:["$","meta","51",{"property":"og:type","content":"website"}]
-46:["$","meta","52",{"name":"twitter:card","content":"summary_large_image"}]
-47:["$","meta","53",{"name":"twitter:creator","content":"@mriridescent"}]
-48:["$","meta","54",{"name":"twitter:title","content":"Mr. Iridescent - Digital Polymat"}]
-49:["$","meta","55",{"name":"twitter:description","content":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert. 20+ years coding experience, Cisco-verified security professional. Hire me for transformative digital solutions."}]
-4a:["$","meta","56",{"name":"twitter:image","content":"https://mriridescent-digitalpolymat.netlify.app/images/david-oke-digital-polymat.jpg"}]
-28:"$23:metadata"
+9:["$","$1","h",{"children":[null,[["$","$L23",null,{"children":"$L24"}],null],["$","$L25",null,{"children":["$","div",null,{"hidden":true,"children":["$","$26",null,{"fallback":null,"children":"$L27"}]}]}]]}]
+28:I[4826,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"FloatingIconsBackground"]
+29:I[7081,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"HeroSection"]
+2a:I[7950,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"AboutSection"]
+2b:I[4373,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"CyberThreatShowcase"]
+2c:I[302,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"EmergingTechShowcase"]
+2d:I[6608,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"SkillsMatrix"]
+2e:I[8198,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"NewsletterSignup"]
+2f:I[7512,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"CTASection"]
+30:I[3240,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"GlobalCTA"]
+31:I[1770,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"HireMeShare"]
+32:I[1770,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"SocialSharing"]
+33:I[8540,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"ClientOnly"]
+34:I[961,["95","static/chunks/95-dff15d693e9992af.js","425","static/chunks/425-39ef31bb99a69f39.js","50","static/chunks/50-df8f56f51fe85bf7.js","455","static/chunks/455-a0910f704e3a2e68.js","974","static/chunks/app/page-2bc2eea88a583fb4.js"],"ThemeSelector"]
+35:I[9665,[],"OutletBoundary"]
+37:I[4911,[],"AsyncMetadataOutlet"]
+16:["$","meta",null,{"name":"global-reach","content":"true"}]
+17:["$","meta",null,{"name":"international-services","content":"software development, cybersecurity, AI"}]
+18:["$","meta",null,{"name":"target-markets","content":"Global, Nigeria, USA, UK, Canada, West Africa"}]
+19:["$","meta",null,{"name":"nigeria-focus","content":"Lagos, Abuja, Port Harcourt"}]
+1a:["$","meta",null,{"name":"nigerian-services","content":"government IT, military software, fintech"}]
+1b:["$","meta",null,{"name":"market-keywords","content":"global software developer, international web developer, remote full stack engineer, international software consultant, global tech solutions, worldwide digital transformation"}]
+1c:["$","meta",null,{"name":"business-type","content":"Global Technology Consulting"}]
+1d:["$","meta",null,{"name":"service-delivery","content":"Remote, On-site, Hybrid"}]
+1e:["$","meta",null,{"name":"time-zones","content":"GMT, WAT, EST, PST"}]
+1f:["$","meta",null,{"name":"languages","content":"English, Yoruba"}]
+20:["$","meta",null,{"name":"currencies","content":"USD, NGN, GBP, CAD"}]
+21:["$","div",null,{"className":"pt-16 relative","children":[["$","$L28",null,{}],["$","$L29",null,{}],["$","$L2a",null,{}],["$","$L2b",null,{}],["$","$L2c",null,{"variant":"compact","showQuotes":true}],["$","$L2d",null,{}],["$","div",null,{"className":"py-16 bg-slate-50","children":["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","$L2e",null,{}]}]}],["$","$L2f",null,{}],["$","$L30",null,{"variant":"primary","position":"bottom","showStats":true}],["$","div",null,{"className":"py-16 bg-gradient-to-r from-slate-50 to-blue-50","children":["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","$L31",null,{}]}]}],["$","$L32",null,{"variant":"floating"}],["$","$L33",null,{"children":["$","$L34",null,{}]}]]}]
+22:["$","$L35",null,{"children":["$L36",["$","$L37",null,{"promise":"$@38"}]]}]
+24:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+36:null
+39:T12d4,global software developer, international web developer, remote full stack engineer, worldwide digital consultant, global AI engineer, international cybersecurity expert, remote React developer, global Next.js specialist, international fintech developer, worldwide startup consultant, global tech lead, international software architect, remote team leader, global digital transformation, international business automation, worldwide e-commerce solutions, global mobile app developer, international UI/UX designer, web developer Lagos, software developer Abuja, tech consultant Port Harcourt, full stack developer Lagos Nigeria, React developer Abuja, AI engineer Port Harcourt, cybersecurity expert Lagos, digital transformation Abuja, fintech developer Nigeria, website developer Lagos, mobile app developer Abuja, e-commerce developer Port Harcourt, startup tech consultant Lagos, business automation Abuja, software architect Nigeria, tech lead Lagos, digital consultant Abuja, system architect Port Harcourt, Ikeja web developer, Victoria Island developer, Lekki tech consultant, Garki software developer, Maitama tech expert, Wuse digital consultant, GRA Port Harcourt developer, Trans Amadi tech consultant, Old GRA software engineer, government software contractor, federal IT services Nigeria, military software developer, defense contractor Nigeria, government web developer, federal cybersecurity consultant, military IT solutions, government digital transformation, federal software development, defense technology consultant, government database developer, military web applications, federal contract developer, government system integration, defense software engineering, military cybersecurity expert, government cloud solutions, federal data management, defense automation systems, government mobile applications, military network security, federal compliance software, government API development, defense system modernization, military training software, government workflow automation, federal reporting systems, defense logistics software, government procurement systems, military communication apps, NITDA software developer, CBN fintech consultant, NNPC digital solutions, Nigerian Army IT contractor, Nigerian Navy software developer, Air Force tech consultant, Police Force IT solutions, Immigration software developer, Customs digital systems, FIRS tax software developer, INEC election technology, NCC telecommunications consultant, EFCC investigation software, ICPC compliance systems, DSS security applications, hire remote developer, offshore software development, international tech team, global software outsourcing, remote development team, international IT consulting, worldwide software solutions, global tech partnership, international digital agency, Digital Polymat, Full Stack Engineer, AI Engineer, Cybersecurity Expert, React Developer, Next.js Developer, TypeScript Developer, Python Developer, Java Spring Developer, DevSecOps Engineer, Cloud Architect, Solutions Architect, RAG Systems, Agentic AI, MCP Protocol, LangChain Developer, Vector Databases, Machine Learning Engineer, Deep Learning, Cisco Cybersecurity, Ethical Hacker, Threat Management, Endpoint Security, Security Automation, SAST, DAST, UI/UX Designer, Brand Identity Designer, Video Editor, Color Grading, Adobe Creative Suite, Graphic Designer, Web Designer, Mobile App Designer, Design Thinking, Systems Thinking, Creative Problem Solving, Digital Transformation Consultant, Technology Consultant, Startup Advisor, Remote Team Leader, Digital Nomad, Freelance Developer, Technical Consultant, Business Process Automation, Digital Strategy, Innovation Consultant, FinTech Developer, Healthcare Technology, EdTech Solutions, E-commerce Development, Real Estate Technology, Non-Profit Technology, Enterprise Solutions, React, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, MySQL, AWS, Google Cloud, Docker, Kubernetes, Microservices, API Development, GraphQL, REST APIs, WebSocket, Progressive Web Apps, Mobile Development, Remote Developer, Global Developer, Nigeria Developer, African Tech Expert, International Developer, Distributed Team, Remote First, Location Independent, Lagos based developer, Nigeria remote developer, African remote team lead, West Africa tech consultant, Nigeria digital nomad, Lagos freelance developer, Nigerian tech professional, Africa software architect, Lagos startup advisor, Multiple Intelligences, Multipotentialite, Renaissance Mind, Polymathic Thinking, Creatively Divergent, Systems Thinker, Design Thinker, Innovation Leader, Logical-Mathematical Intelligence, Linguistic Intelligence, Spatial Intelligence, Musical Intelligence, Bodily-Kinesthetic Intelligence, Interpersonal Intelligence, Intrapersonal Intelligence, Naturalistic Intelligence, Existential Intelligence38:{"metadata":[["$","title","0",{"children":"Mr. Iridescent - Digital Polymat"}],["$","meta","1",{"name":"description","content":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert. 20+ years coding experience, Cisco-verified security professional. Hire me for transformative digital solutions."}],["$","meta","2",{"name":"keywords","content":"$39"}],"$L3a","$L3b","$L3c","$L3d","$L3e","$L3f","$L40","$L41","$L42","$L43","$L44","$L45","$L46","$L47","$L48","$L49","$L4a","$L4b","$L4c","$L4d","$L4e","$L4f","$L50","$L51","$L52","$L53","$L54","$L55","$L56","$L57","$L58","$L59","$L5a","$L5b","$L5c","$L5d","$L5e","$L5f","$L60","$L61","$L62","$L63","$L64","$L65","$L66","$L67","$L68","$L69","$L6a","$L6b","$L6c","$L6d","$L6e","$L6f","$L70","$L71","$L72","$L73","$L74","$L75","$L76","$L77"],"error":null,"digest":"$undefined"}
+27:"$38:metadata"
+3a:["$","meta","3",{"name":"author","content":"David Akpoviroro Oke"}]
+3b:["$","meta","4",{"name":"robots","content":"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"}]
+3c:["$","meta","5",{"name":"googlebot","content":"index, follow"}]
+3d:["$","meta","6",{"name":"bingbot","content":"index, follow"}]
+3e:["$","meta","7",{"name":"language","content":"English"}]
+3f:["$","meta","8",{"name":"revisit-after","content":"7 days"}]
+40:["$","meta","9",{"name":"distribution","content":"global"}]
+41:["$","meta","10",{"name":"rating","content":"general"}]
+42:["$","meta","11",{"name":"referrer","content":"origin-when-cross-origin"}]
+43:["$","meta","12",{"name":"contact","content":"mriridescent@yahoo.com"}]
+44:["$","meta","13",{"name":"reply-to","content":"mriridescent@yahoo.com"}]
+45:["$","meta","14",{"name":"owner","content":"David Akpoviroro Oke"}]
+46:["$","meta","15",{"name":"designer","content":"David Akpoviroro Oke"}]
+47:["$","meta","16",{"name":"developer","content":"David Akpoviroro Oke"}]
+48:["$","meta","17",{"name":"geo.region","content":"NG-LA"}]
+49:["$","meta","18",{"name":"geo.country","content":"Nigeria"}]
+4a:["$","meta","19",{"name":"geo.placename","content":"Lagos, Nigeria"}]
+4b:["$","meta","20",{"name":"geo.position","content":"6.5244;3.3792"}]
+4c:["$","meta","21",{"name":"ICBM","content":"6.5244, 3.3792"}]
+4d:["$","meta","22",{"name":"geo.locality","content":"Lagos"}]
+4e:["$","meta","23",{"name":"geo.region-code","content":"NG-LA"}]
+4f:["$","meta","24",{"name":"business.location","content":"Lagos, Nigeria"}]
+50:["$","meta","25",{"name":"business.service-area","content":"Lagos, Abuja, Port Harcourt, Nigeria & Global"}]
+51:["$","meta","26",{"name":"business.type","content":"Technology Consulting & Software Development"}]
+52:["$","meta","27",{"name":"business.established","content":"2017"}]
+53:["$","meta","28",{"name":"business.languages","content":"English, Yoruba"}]
+54:["$","meta","29",{"name":"profession","content":"Digital Polymat, Full Stack Engineer, AI Specialist, Cybersecurity Expert"}]
+55:["$","meta","30",{"name":"skills","content":"Full Stack Development, AI Engineering, Cybersecurity, UI/UX Design, Video Production"}]
+56:["$","meta","31",{"name":"experience","content":"20+ years coding experience, 7+ years leadership"}]
+57:["$","meta","32",{"name":"availability","content":"Available for hire, consulting, and remote work globally"}]
+78:Tf77,{"@context":"https://schema.org","@type":"Person","name":"David Akpoviroro Oke","alternateName":"Mr. Iridescent","description":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert with 20+ years of coding experience","url":"https://mriridescent-digitalpolymat.netlify.app","image":"https://mriridescent-digitalpolymat.netlify.app/images/david-oke-digital-polymat.jpg","sameAs":["https://www.linkedin.com/in/mriridescent","https://github.com/mriridescent","https://facebook.com/iammriridescent","https://instagram.com/mriridescent"],"jobTitle":["Digital Polymat","Full Stack Engineer","AI Engineer","Cybersecurity Expert","Technology Consultant","Creative Director"],"address":{"@type":"PostalAddress","addressLocality":"Lagos","addressRegion":"Lagos State","addressCountry":"Nigeria","addressCountryCode":"NG"},"areaServed":[{"@type":"City","name":"Lagos","containedInPlace":{"@type":"State","name":"Lagos State"}},{"@type":"City","name":"Abuja"},{"@type":"Country","name":"Nigeria"},{"@type":"Place","name":"Global"}],"worksFor":[{"@type":"Organization","name":"Zandbox Global","description":"Full Stack Engineer developing scalable fintech products","address":{"@type":"PostalAddress","addressCountry":"Nigeria"}},{"@type":"Organization","name":"Iridescent Internet Solutions Limited","description":"Founder & CEO leading digital transformation projects in Lagos and across Nigeria","address":{"@type":"PostalAddress","addressLocality":"Lagos","addressRegion":"Lagos State","addressCountry":"Nigeria"},"areaServed":{"@type":"Place","name":"Lagos, Nigeria & Global"}}],"alumniOf":{"@type":"EducationalOrganization","name":"University of the People","description":"Bachelor of Science in Computer Science (Expected 2026)"},"hasCredential":[{"@type":"EducationalOccupationalCredential","name":"Cisco Verified Cyber Threat Management","credentialCategory":"Cybersecurity Certification"},{"@type":"EducationalOccupationalCredential","name":"Cisco Verified Ethical Hacker","credentialCategory":"Cybersecurity Certification"},{"@type":"EducationalOccupationalCredential","name":"Cisco Verified Endpoint Security Engineer","credentialCategory":"Cybersecurity Certification"},{"@type":"EducationalOccupationalCredential","name":"Cisco Verified CyberOps Associate","credentialCategory":"Cybersecurity Certification"}],"knowsAbout":["Full Stack Development","Artificial Intelligence","Machine Learning","Cybersecurity","Digital Transformation","UI/UX Design","Video Production","Remote Team Leadership","Design Thinking","Systems Thinking","Multiple Intelligences","Polymathic Thinking"],"offers":[{"@type":"Service","name":"Lagos Web Development Services","description":"Professional web development services for Lagos businesses including e-commerce, corporate websites, and web applications","provider":{"@type":"Person","name":"David Akpoviroro Oke"},"areaServed":{"@type":"City","name":"Lagos","containedInPlace":{"@type":"Country","name":"Nigeria"}},"availableChannel":{"@type":"ServiceChannel","serviceType":"On-site & Remote Consulting","availableLanguage":["English","Yoruba"]},"category":"Web Development","serviceType":"Professional Service"},{"@type":"Service","name":"Nigerian Fintech Development","description":"Specialized fintech solutions for Nigerian businesses including payment systems, banking apps, and financial dashboards","provider":{"@type":"Person","name":"David Akpoviroro Oke"},"areaServed":{"@type":"Country","name":"Nigeria"},"category":"Fintech Development","serviceType":"Software Development"},{"@type":"Service","name":"Digital Transformation & Technology Consulting","description":"Comprehensive technology solutions including full stack development, AI implementation, cybersecurity, and creative design services","provider":{"@type":"Person","name":"David Akpoviroro Oke"},"areaServed":"Global","availableChannel":{"@type":"ServiceChannel","serviceType":"Remote Consulting","availableLanguage":"English"}}]}58:["$","meta","33",{"name":"application-ld+json","content":"$78"}]
+59:["$","meta","34",{"name":"theme-color","content":"#3B82F6"}]
+5a:["$","meta","35",{"name":"msapplication-TileColor","content":"#3B82F6"}]
+5b:["$","meta","36",{"name":"apple-mobile-web-app-capable","content":"yes"}]
+5c:["$","meta","37",{"name":"apple-mobile-web-app-status-bar-style","content":"default"}]
+5d:["$","meta","38",{"name":"format-detection","content":"telephone=no"}]
+5e:["$","meta","39",{"name":"fb:app_id","content":"123456789"}]
+5f:["$","meta","40",{"name":"twitter:site","content":"@mriridescent"}]
+60:["$","meta","41",{"name":"twitter:creator","content":"@mriridescent"}]
+61:["$","meta","42",{"name":"hiring-keywords","content":"hire full stack developer, hire AI engineer, hire cybersecurity expert, remote developer for hire, digital transformation consultant, technology consultant available"}]
+62:["$","meta","43",{"name":"hiring-availability","content":"Available for hire, consulting, and remote work globally"}]
+63:["$","meta","44",{"name":"work-type","content":"Remote work, contract work, full-time employment, consulting, freelance"}]
+64:["$","meta","45",{"name":"specializations","content":"Digital Polymat, Multipotentialite, Design Thinking, Systems Thinking, Multiple Intelligences"}]
+65:["$","meta","46",{"name":"canonical","content":"https://mriridescent-digitalpolymat.netlify.app"}]
+66:["$","meta","47",{"name":"alternate","content":"https://mriridescent-digitalpolymat.netlify.app/resume"}]
+67:["$","meta","48",{"name":"next","content":"https://mriridescent-digitalpolymat.netlify.app/statistics"}]
+68:["$","meta","49",{"name":"prev","content":"https://mriridescent-digitalpolymat.netlify.app/about"}]
+69:["$","meta","50",{"property":"og:title","content":"Mr. Iridescent - Digital Polymat"}]
+6a:["$","meta","51",{"property":"og:description","content":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert. 20+ years coding experience, Cisco-verified security professional. Hire me for transformative digital solutions."}]
+6b:["$","meta","52",{"property":"og:url","content":"https://mriridescent-digitalpolymat.netlify.app/"}]
+6c:["$","meta","53",{"property":"og:site_name","content":"Mr. Iridescent - Digital Polymat"}]
+6d:["$","meta","54",{"property":"og:locale","content":"en_US"}]
+6e:["$","meta","55",{"property":"og:image","content":"https://mriridescent-digitalpolymat.netlify.app/images/david-oke-digital-polymat.jpg"}]
+6f:["$","meta","56",{"property":"og:image:width","content":"1200"}]
+70:["$","meta","57",{"property":"og:image:height","content":"630"}]
+71:["$","meta","58",{"property":"og:image:alt","content":"David Akpoviroro Oke - Mr. Iridescent - Digital Polymat"}]
+72:["$","meta","59",{"property":"og:type","content":"website"}]
+73:["$","meta","60",{"name":"twitter:card","content":"summary_large_image"}]
+74:["$","meta","61",{"name":"twitter:creator","content":"@mriridescent"}]
+75:["$","meta","62",{"name":"twitter:title","content":"Mr. Iridescent - Digital Polymat"}]
+76:["$","meta","63",{"name":"twitter:description","content":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert. 20+ years coding experience, Cisco-verified security professional. Hire me for transformative digital solutions."}]
+77:["$","meta","64",{"name":"twitter:image","content":"https://mriridescent-digitalpolymat.netlify.app/images/david-oke-digital-polymat.jpg"}]
