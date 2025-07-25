@@ -93,8 +93,8 @@ const emergingTechnologies: TechTrend[] = [
       'Federated learning across edge devices',
       '5G enabling massive IoT deployments'
     ],
-    marketSize: '$250B+ edge computing market by 2025',
-    adoptionRate: 'Rapid deployment across telecommunications'
+    marketSize: '300% growth in edge computing adoption by 2025',
+    adoptionRate: '85% of telecom providers implementing edge solutions'
   },
   {
     id: 'quantum-computing',
@@ -111,8 +111,8 @@ const emergingTechnologies: TechTrend[] = [
       'Hybrid classical-quantum algorithms',
       'Cloud-based quantum computing services'
     ],
-    marketSize: '$1.3B market growing to $5B+ by 2030',
-    adoptionRate: 'Research and early enterprise adoption'
+    marketSize: '400% quantum computing capability growth by 2030',
+    adoptionRate: '60% of Fortune 500 exploring quantum applications'
   }
 ]
 
@@ -142,7 +142,7 @@ export function EmergingTechShowcase({
           )}
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-            {emergingTechnologies.map((tech, index) => (
+            {emergingTechnologies && emergingTechnologies.map((tech, index) => (
               <KineticContainer
                 key={tech.id}
                 variant={['flow', 'pulse', 'magnetic', 'quantum'][index % 4] as any}
@@ -167,7 +167,7 @@ export function EmergingTechShowcase({
                     </h3>
                     <p className="text-xs text-slate-600 mb-2">{tech.timeline}</p>
                     <div className="flex flex-wrap gap-1 justify-center">
-                      {tech.applications.slice(0, 2).map((app) => (
+                      {tech.applications && tech.applications.slice(0, 2).map((app) => (
                         <span
                           key={app}
                           className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded-full"
@@ -213,7 +213,7 @@ export function EmergingTechShowcase({
         </motion.div>
 
         <div className="space-y-6 md:space-y-8">
-          {emergingTechnologies.map((tech, index) => (
+          {emergingTechnologies && emergingTechnologies.map((tech, index) => (
             <motion.div
               key={tech.id}
               initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
@@ -262,7 +262,7 @@ export function EmergingTechShowcase({
                 <div className="mb-4">
                   <div className="text-sm font-semibold text-slate-700 mb-2">Applications:</div>
                   <div className="flex flex-wrap gap-2">
-                    {tech.applications.map((app) => (
+                    {tech.applications && tech.applications.map((app) => (
                       <span 
                         key={app}
                         className="text-xs bg-primary-100 text-primary-700 px-2 py-1 rounded-full"
@@ -286,7 +286,7 @@ export function EmergingTechShowcase({
                       <div>
                         <div className="text-sm font-semibold text-slate-700 mb-2">Technical Details:</div>
                         <ul className="space-y-1">
-                          {tech.details.map((detail, i) => (
+                          {tech.details && tech.details.map((detail, i) => (
                             <li key={i} className="text-xs md:text-sm text-slate-600 flex items-start gap-2">
                               <span className="text-primary-500 mt-1">•</span>
                               <span>{detail}</span>

@@ -1,43 +1,302 @@
 1:"$Sreact.fragment"
-2:I[1185,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-b62d77afda0f0082.js","384","static/chunks/384-05783858420894c0.js","177","static/chunks/app/layout-255d78bf08172028.js"],"DynamicLayoutSystem"]
-3:I[7724,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-b62d77afda0f0082.js","384","static/chunks/384-05783858420894c0.js","177","static/chunks/app/layout-255d78bf08172028.js"],"Navigation"]
-4:I[7555,[],""]
-5:I[690,["874","static/chunks/874-437a265a67d6cfee.js","39","static/chunks/app/error-4fa82eb0bed42790.js"],"default"]
-6:I[1295,[],""]
-7:I[6874,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-b62d77afda0f0082.js","384","static/chunks/384-05783858420894c0.js","177","static/chunks/app/layout-255d78bf08172028.js"],""]
-8:I[7577,["874","static/chunks/874-437a265a67d6cfee.js","345","static/chunks/app/not-found-3bba405086ece463.js"],"BackButton"]
-14:I[8393,[],""]
-:HL["/_next/static/css/6a117ec08e93800e.css","style"]
-:HL["/_next/static/css/5ca10393e961a70a.css","style"]
-0:{"P":null,"b":"CkBjsRFml5kttB3Sm1IdN","p":"","c":["","cover-letters",""],"i":false,"f":[[["",{"children":["cover-letters",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/6a117ec08e93800e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/5ca10393e961a70a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_e8ce0c __variable_694534","children":["$","body",null,{"className":"font-sans antialiased","suppressHydrationWarning":true,"children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","main",null,{"className":"min-h-screen","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$5","errorStyles":[],"errorScripts":[],"template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50 px-4","children":["$","div",null,{"className":"text-center max-w-md","children":[["$","div",null,{"className":"w-24 h-24 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-8","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-search h-12 w-12 text-primary-600","children":[["$","circle","4ej97u",{"cx":"11","cy":"11","r":"8"}],["$","path","1qie3q",{"d":"m21 21-4.3-4.3"}],"$undefined"]}]}],["$","h1",null,{"className":"text-6xl font-bold text-slate-900 mb-4","children":"404"}],["$","h2",null,{"className":"text-2xl font-bold text-slate-900 mb-4","children":"Page Not Found"}],["$","p",null,{"className":"text-slate-600 mb-8","children":"The page you're looking for doesn't exist or has been moved. Let's get you back on track."}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-4 justify-center","children":[["$","$L7",null,{"href":"/","className":"inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-house h-4 w-4","children":[["$","path","5wwlr5",{"d":"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"}],["$","path","1d0kgt",{"d":"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],"$undefined"]}],"Go Home"]}],["$","$L8",null,{}]]}],["$","div",null,{"className":"mt-12","children":[["$","p",null,{"className":"text-sm text-slate-500 mb-4","children":"Popular pages:"}],["$","div",null,{"className":"flex flex-wrap gap-2 justify-center","children":[["$","$L7",null,{"href":"/about","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"About"}],["$","$L7",null,{"href":"/philosophy","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Philosophy"}],["$","$L7",null,{"href":"/case-studies","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Case Studies"}],["$","$L7",null,{"href":"/writings","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Writings"}],["$","$L7",null,{"href":"/contact","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Contact"}]]}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-slate-900 text-white","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-8","children":[["$","div",null,{"className":"col-span-1 md:col-span-2","children":[["$","div",null,{"className":"flex items-center space-x-2 mb-4","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-code h-8 w-8 text-primary-400","children":[["$","polyline","z7tu5w",{"points":"16 18 22 12 16 6"}],"$L9","$undefined"]}],"$La"]}],"$Lb"]}],"$Lc","$Ld"]}],"$Le","$Lf"]}]}]]}]}]}]]}],{"children":["cover-letters","$L10",{"children":["__PAGE__","$L11",{},null,false]},null,false]},["$L12",[],[]],false],"$L13",false]],"m":"$undefined","G":["$14",[]],"s":false,"S":true}
-15:I[5504,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-b62d77afda0f0082.js","384","static/chunks/384-05783858420894c0.js","177","static/chunks/app/layout-255d78bf08172028.js"],"FooterQuote"]
-1c:I[9665,[],"ViewportBoundary"]
-1e:I[9665,[],"MetadataBoundary"]
-1f:"$Sreact.suspense"
-9:["$","polyline","1eg1df",{"points":"8 6 2 12 8 18"}]
-a:["$","span",null,{"className":"font-bold text-xl","children":"Polymathic Coder"}]
-b:["$","p",null,{"className":"text-slate-300 max-w-md","children":"Digital Polymath and Senior Full Stack Architect specializing in interdisciplinary problem-solving at the intersection of technology, design, and systems thinking."}]
-c:["$","div",null,{"children":[["$","h3",null,{"className":"font-semibold mb-4","children":"Quick Links"}],["$","ul",null,{"className":"space-y-2","children":[["$","li",null,{"children":["$","$L7",null,{"href":"/about","className":"text-slate-300 hover:text-white transition-colors","children":"About"}]}],["$","li",null,{"children":["$","$L7",null,{"href":"/philosophy","className":"text-slate-300 hover:text-white transition-colors","children":"Philosophy"}]}],["$","li",null,{"children":["$","$L7",null,{"href":"/case-studies","className":"text-slate-300 hover:text-white transition-colors","children":"Case Studies"}]}],["$","li",null,{"children":["$","$L7",null,{"href":"/writings","className":"text-slate-300 hover:text-white transition-colors","children":"Writings"}]}],["$","li",null,{"children":["$","$L7",null,{"href":"/contact","className":"text-slate-300 hover:text-white transition-colors","children":"Contact"}]}]]}]]}]
-d:["$","div",null,{"children":[["$","h3",null,{"className":"font-semibold mb-4","children":"Connect"}],["$","div",null,{"className":"flex space-x-4","children":[["$","a",null,{"href":"https://github.com","className":"text-slate-300 hover:text-white transition-colors","aria-label":"GitHub","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github h-6 w-6","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}]}],["$","a",null,{"href":"https://linkedin.com","className":"text-slate-300 hover:text-white transition-colors","aria-label":"LinkedIn","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-linkedin h-6 w-6","children":[["$","path","c2jq9f",{"d":"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"}],["$","rect","mk3on5",{"width":"4","height":"12","x":"2","y":"9"}],["$","circle","bt5ra8",{"cx":"4","cy":"4","r":"2"}],"$undefined"]}]}],["$","a",null,{"href":"mailto:hello@polymathiccoder.dev","className":"text-slate-300 hover:text-white transition-colors","aria-label":"Email","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-mail h-6 w-6","children":[["$","rect","18n3k1",{"width":"20","height":"16","x":"2","y":"4","rx":"2"}],["$","path","1ocrg3",{"d":"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"}],"$undefined"]}]}]]}]]}]
-e:["$","div",null,{"className":"border-t border-slate-800 mt-8 pt-8","children":["$","$L15",null,{}]}]
-f:["$","div",null,{"className":"border-t border-slate-800 mt-8 pt-8 text-center text-slate-400","children":["$","p",null,{"children":["© ",2025," Polymathic Coder. All rights reserved."]}]}]
-10:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
-11:["$","$1","c",{"children":[["$","div",null,{"className":"pt-16 min-h-screen bg-gradient-to-br from-slate-50 to-blue-50","children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16","children":[["$","div",null,{"className":"text-center mb-16","children":[["$","h1",null,{"className":"text-4xl md:text-6xl font-bold text-slate-900 mb-6","children":["Cover Letter ",["$","span",null,{"className":"text-gradient","children":"Templates"}]]}],["$","p",null,{"className":"text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed","children":"Two strategic approaches to professional correspondence: one audacious and formal, the other conversational and authentic. Both designed to demonstrate polymathic thinking."}]]}],["$","div",null,{"className":"grid lg:grid-cols-2 gap-8","children":[["$","div",null,{"className":"bg-white rounded-2xl shadow-lg overflow-hidden","children":[["$","div",null,{"className":"bg-gradient-to-r from-purple-600 to-indigo-600 p-6 text-white","children":[["$","div",null,{"className":"flex items-center gap-4 mb-4","children":[["$","div",null,{"className":"w-12 h-12 bg-white/20 rounded-full flex items-center justify-center","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-crown h-6 w-6","children":[["$","path","1vdc57",{"d":"M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"}],["$","path","11awu3",{"d":"M5 21h14"}],"$undefined"]}]}],["$","div",null,{"children":[["$","h2",null,{"className":"text-2xl font-bold","children":"The Sforza Archetype"}],["$","p",null,{"className":"opacity-90","children":"Formal & Audacious"}]]}]]}],["$","p",null,{"className":"text-white/90 leading-relaxed","children":"Inspired by Leonardo da Vinci's letter to Ludovico Sforza, this template is designed to capture the attention of visionary leaders through bold, confident language."}]]}],["$","div",null,{"className":"p-6","children":[["$","div",null,{"className":"mb-6","children":[["$","h3",null,{"className":"font-semibold text-slate-900 mb-3","children":"Best Used For:"}],["$","ul",null,{"className":"text-slate-600 text-sm space-y-2","children":[["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-purple-600 mt-1","children":"•"}],["$","span",null,{"children":"Innovative startups and forward-thinking companies"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-purple-600 mt-1","children":"•"}],["$","span",null,{"children":"Senior leadership and C-suite positions"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-purple-600 mt-1","children":"•"}],["$","span",null,{"children":"Companies that value bold thinking and innovation"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-purple-600 mt-1","children":"•"}],["$","span",null,{"children":"Roles requiring strategic vision and leadership"}]]}]]}]]}],["$","div",null,{"className":"bg-slate-50 rounded-lg p-4 mb-6","children":[["$","h4",null,{"className":"font-semibold text-slate-900 mb-2","children":"Sample Opening:"}],["$","blockquote",null,{"className":"text-slate-600 italic text-sm leading-relaxed","children":"\"Having now sufficiently seen and considered the achievements of those who count themselves masters and artificers of modern digital instruments, and having noted that the invention and performance of the said instruments often do not differ from that in common usage, I shall endeavor, while intending no discredit to others, to make myself understood to Your Excellency...\""}]]}],["$","div",null,{"className":"flex gap-3","children":[["$","button",null,{"className":"flex-1 bg-purple-600 text-white px-4 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors flex items-center justify-center gap-2","children":["$L16","Download Template"]}],"$L17"]}]]}]]}],"$L18"]}],"$L19","$L1a"]}]}],null,"$L1b"]}]
-12:["$","div","l",{"className":"min-h-screen flex items-center justify-center bg-slate-50","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"}],["$","p",null,{"className":"text-slate-600","children":"Loading..."}]]}]}]
-13:["$","$1","h",{"children":[null,[["$","$L1c",null,{"children":"$L1d"}],null],["$","$L1e",null,{"children":["$","div",null,{"hidden":true,"children":["$","$1f",null,{"fallback":null,"children":"$L20"}]}]}]]}]
-25:I[9665,[],"OutletBoundary"]
-27:I[4911,[],"AsyncMetadataOutlet"]
-16:["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-download h-4 w-4","children":[["$","path","ih7n3h",{"d":"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"}],["$","polyline","2ggqvy",{"points":"7 10 12 15 17 10"}],["$","line","1vk2je",{"x1":"12","x2":"12","y1":"15","y2":"3"}],"$undefined"]}]
-17:["$","button",null,{"className":"px-4 py-3 border border-slate-300 text-slate-700 rounded-lg font-semibold hover:border-purple-600 hover:text-purple-600 transition-colors","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-file-text h-4 w-4","children":[["$","path","1rqfz7",{"d":"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"}],["$","path","tnqrlb",{"d":"M14 2v4a2 2 0 0 0 2 2h4"}],["$","path","b1mrlr",{"d":"M10 9H8"}],["$","path","t4e002",{"d":"M16 13H8"}],["$","path","z1uh3a",{"d":"M16 17H8"}],"$undefined"]}]}]
-18:["$","div",null,{"className":"bg-white rounded-2xl shadow-lg overflow-hidden","children":[["$","div",null,{"className":"bg-gradient-to-r from-emerald-600 to-teal-600 p-6 text-white","children":[["$","div",null,{"className":"flex items-center gap-4 mb-4","children":[["$","div",null,{"className":"w-12 h-12 bg-white/20 rounded-full flex items-center justify-center","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart h-6 w-6","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]}],["$","div",null,{"children":[["$","h2",null,{"className":"text-2xl font-bold","children":"The Humanized Dialogue"}],["$","p",null,{"className":"opacity-90","children":"Conversational & Authentic"}]]}]]}],["$","p",null,{"className":"text-white/90 leading-relaxed","children":"A warm, genuine approach that builds rapport and demonstrates cultural alignment while showcasing polymathic thinking in accessible language."}]]}],["$","div",null,{"className":"p-6","children":[["$","div",null,{"className":"mb-6","children":[["$","h3",null,{"className":"font-semibold text-slate-900 mb-3","children":"Best Used For:"}],["$","ul",null,{"className":"text-slate-600 text-sm space-y-2","children":[["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-emerald-600 mt-1","children":"•"}],["$","span",null,{"children":"Companies with strong cultural values"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-emerald-600 mt-1","children":"•"}],["$","span",null,{"children":"Remote-first organizations"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-emerald-600 mt-1","children":"•"}],["$","span",null,{"children":"Collaborative team environments"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-emerald-600 mt-1","children":"•"}],["$","span",null,{"children":"Positions emphasizing team fit and communication"}]]}]]}]]}],["$","div",null,{"className":"bg-slate-50 rounded-lg p-4 mb-6","children":[["$","h4",null,{"className":"font-semibold text-slate-900 mb-2","children":"Sample Opening:"}],["$","blockquote",null,{"className":"text-slate-600 italic text-sm leading-relaxed","children":"\"I've been following [Company Name]'s work for some time, and your recent launch of [specific project] particularly caught my eye. Your approach to solving [specific problem] resonates deeply with my own philosophy—that technology's highest purpose is to create systems that are not only powerful but also elegantly simple and human-centric.\""}]]}],["$","div",null,{"className":"flex gap-3","children":[["$","button",null,{"className":"flex-1 bg-emerald-600 text-white px-4 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors flex items-center justify-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-download h-4 w-4","children":[["$","path","ih7n3h",{"d":"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"}],["$","polyline","2ggqvy",{"points":"7 10 12 15 17 10"}],["$","line","1vk2je",{"x1":"12","x2":"12","y1":"15","y2":"3"}],"$undefined"]}],"Download Template"]}],["$","button",null,{"className":"px-4 py-3 border border-slate-300 text-slate-700 rounded-lg font-semibold hover:border-emerald-600 hover:text-emerald-600 transition-colors","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-file-text h-4 w-4","children":[["$","path","1rqfz7",{"d":"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"}],"$L21","$L22","$L23","$L24","$undefined"]}]}]]}]]}]]}]
-19:["$","div",null,{"className":"mt-16 bg-white rounded-2xl shadow-lg p-8","children":[["$","h2",null,{"className":"text-2xl font-bold text-slate-900 mb-6","children":"Strategic Usage Guidelines"}],["$","div",null,{"className":"grid md:grid-cols-2 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"text-lg font-semibold text-slate-900 mb-4","children":"The Sforza Approach"}],["$","div",null,{"className":"space-y-3 text-slate-600 text-sm","children":[["$","p",null,{"children":[["$","strong",null,{"children":"Risk Level:"}]," High-risk, high-reward"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Target Audience:"}]," Visionary leaders, innovative companies"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Tone:"}]," Confident, bold, historically-inspired"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Goal:"}]," Capture imagination through capability demonstration"]}],["$","p",null,{"children":[["$","strong",null,{"children":"When to Use:"}]," When you want to stand out dramatically and the company culture supports bold approaches"]}]]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"text-lg font-semibold text-slate-900 mb-4","children":"The Humanized Dialogue"}],["$","div",null,{"className":"space-y-3 text-slate-600 text-sm","children":[["$","p",null,{"children":[["$","strong",null,{"children":"Risk Level:"}]," Low-risk, relationship-building"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Target Audience:"}]," Collaborative teams, culture-focused companies"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Tone:"}]," Warm, genuine, professionally conversational"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Goal:"}]," Build connection and demonstrate cultural fit"]}],["$","p",null,{"children":[["$","strong",null,{"children":"When to Use:"}]," When cultural alignment is paramount and authenticity is valued"]}]]}]]}]]}],["$","div",null,{"className":"mt-8 p-6 bg-gradient-to-r from-primary-50 to-accent-50 rounded-lg","children":[["$","h3",null,{"className":"text-lg font-semibold text-slate-900 mb-3","children":"Customization Tips"}],["$","ul",null,{"className":"text-slate-700 text-sm space-y-2","children":[["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-primary-600 mt-1","children":"•"}],["$","span",null,{"children":"Research the company's recent projects and mention specific initiatives"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-primary-600 mt-1","children":"•"}],["$","span",null,{"children":"Adapt the technical examples to match the company's technology stack"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-primary-600 mt-1","children":"•"}],["$","span",null,{"children":"Include quantifiable achievements relevant to the role requirements"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-primary-600 mt-1","children":"•"}],["$","span",null,{"children":"Reference the hiring manager by name when possible"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-primary-600 mt-1","children":"•"}],["$","span",null,{"children":"Connect your polymathic approach to their specific business challenges"}]]}]]}]]}]]}]
-1a:["$","div",null,{"className":"mt-16 text-center","children":["$","div",null,{"className":"bg-gradient-to-r from-primary-600 to-accent-600 rounded-2xl p-8 text-white","children":[["$","h2",null,{"className":"text-3xl font-bold mb-4","children":"Ready to Craft Your Message?"}],["$","p",null,{"className":"text-xl mb-8 opacity-90","children":"Choose the approach that best fits your target opportunity and company culture."}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-4 justify-center","children":[["$","a",null,{"href":"/contact","className":"bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition-colors","children":"Get Personalized Help"}],["$","a",null,{"href":"/case-studies","className":"border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors","children":"See Results in Action"}]]}]]}]}]
-1b:["$","$L25",null,{"children":["$L26",["$","$L27",null,{"promise":"$@28"}]]}]
-21:["$","path","tnqrlb",{"d":"M14 2v4a2 2 0 0 0 2 2h4"}]
-22:["$","path","b1mrlr",{"d":"M10 9H8"}]
-23:["$","path","t4e002",{"d":"M16 13H8"}]
-24:["$","path","z1uh3a",{"d":"M16 17H8"}]
-1d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-26:null
-28:{"metadata":[["$","title","0",{"children":"Cover Letter Templates | Polymathic Coder | Polymathic Coder"}],["$","meta","1",{"name":"description","content":"Professional cover letter templates: The Sforza Archetype (formal & audacious) and The Humanized Dialogue (conversational & authentic)."}],["$","meta","2",{"name":"author","content":"Polymathic Coder"}],["$","meta","3",{"name":"keywords","content":"Polymathic Coder,Digital Polymath,Systems Thinking,Full-stack Developer,Interdisciplinary,Polyglot Developer,Software Architecture,React,Next.js,TypeScript,Node.js,Python,Java"}],["$","meta","4",{"name":"creator","content":"Polymathic Coder"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","7",{"property":"og:title","content":"Polymathic Coder - Code in any language. Think in every discipline."}],["$","meta","8",{"property":"og:description","content":"Digital Polymath and Senior Full Stack Developer specializing in interdisciplinary problem-solving. Creating holistic solutions at the intersection of technology, design, and systems thinking."}],["$","meta","9",{"property":"og:url","content":"https://polymathiccoder.dev/"}],["$","meta","10",{"property":"og:site_name","content":"Polymathic Coder"}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:title","content":"Polymathic Coder - Code in any language. Think in every discipline."}],["$","meta","15",{"name":"twitter:description","content":"Digital Polymath and Senior Full Stack Developer specializing in interdisciplinary problem-solving."}]],"error":null,"digest":"$undefined"}
-20:"$28:metadata"
+b:I[8393,[],""]
+:HL["/_next/static/css/ad14d9786b084ae2.css","style"]
+:HL["/_next/static/css/fee6596e9f8c97ac.css","style"]
+:HL["/_next/static/css/817f928b730d3364.css","style"]
+2:Tb50,{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "David Akpoviroro Oke",
+  "alternateName": "Mr. Iridescent",
+  "description": "Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert with 20+ years of coding experience",
+  "url": "https://mriridescent-digitalpolymat.netlify.app",
+  "image": "https://mriridescent-digitalpolymat.netlify.app/images/david-oke-digital-polymat.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/mriridescent",
+    "https://github.com/mriridescent",
+    "https://facebook.com/iammriridescent",
+    "https://instagram.com/mriridescent"
+  ],
+  "jobTitle": [
+    "Digital Polymat",
+    "Full Stack Engineer",
+    "AI Engineer",
+    "Cybersecurity Expert",
+    "Technology Consultant",
+    "Creative Director"
+  ],
+  "worksFor": [
+    {
+      "@type": "Organization",
+      "name": "Zandbox Global",
+      "description": "Full Stack Engineer developing scalable fintech products"
+    },
+    {
+      "@type": "Organization",
+      "name": "Iridescent Internet Solutions Limited",
+      "description": "Founder & CEO leading digital transformation projects"
+    }
+  ],
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "University of the People",
+    "description": "Bachelor of Science in Computer Science (Expected 2026)"
+  },
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Cisco Verified Cyber Threat Management",
+      "credentialCategory": "Cybersecurity Certification"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Cisco Verified Ethical Hacker",
+      "credentialCategory": "Cybersecurity Certification"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Cisco Verified Endpoint Security Engineer",
+      "credentialCategory": "Cybersecurity Certification"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Cisco Verified CyberOps Associate",
+      "credentialCategory": "Cybersecurity Certification"
+    }
+  ],
+  "knowsAbout": [
+    "Full Stack Development",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Cybersecurity",
+    "Digital Transformation",
+    "UI/UX Design",
+    "Video Production",
+    "Remote Team Leadership",
+    "Design Thinking",
+    "Systems Thinking",
+    "Multiple Intelligences",
+    "Polymathic Thinking"
+  ],
+  "offers": {
+    "@type": "Service",
+    "name": "Digital Transformation & Technology Consulting",
+    "description": "Comprehensive technology solutions including full stack development, AI implementation, cybersecurity, and creative design services",
+    "provider": {
+      "@type": "Person",
+      "name": "David Akpoviroro Oke"
+    },
+    "areaServed": "Global",
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceType": "Remote Consulting",
+      "availableLanguage": "English"
+    }
+  }
+}0:{"P":null,"b":"JIbavNhSzOx5rmaY7vhN9","p":"","c":["","cover-letters",""],"i":false,"f":[[["",{"children":["cover-letters",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ad14d9786b084ae2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/fee6596e9f8c97ac.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/817f928b730d3364.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_e8ce0c __variable_694534","children":[["$","head",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5"]}],"$L6"]}]]}],{"children":["cover-letters","$L7",{"children":["__PAGE__","$L8",{},null,false]},null,false]},["$L9",[],[]],false],"$La",false]],"m":"$undefined","G":["$b",[]],"s":false,"S":true}
+e:I[4403,["874","static/chunks/874-437a265a67d6cfee.js","336","static/chunks/336-d40a3bc10134fe67.js","775","static/chunks/775-b6dfcfb2093b9360.js","678","static/chunks/678-7314b4d393f870ce.js","767","static/chunks/767-d9b8ab98265ffec0.js","403","static/chunks/403-18f117bf49494a91.js","177","static/chunks/app/layout-8bb06976a2356b8c.js"],"DynamicLayoutSystem"]
+f:I[7555,[],""]
+10:I[690,["874","static/chunks/874-437a265a67d6cfee.js","39","static/chunks/app/error-4fa82eb0bed42790.js"],"default"]
+11:I[1295,[],""]
+12:I[6874,["874","static/chunks/874-437a265a67d6cfee.js","345","static/chunks/app/not-found-3bba405086ece463.js"],""]
+13:I[7577,["874","static/chunks/874-437a265a67d6cfee.js","345","static/chunks/app/not-found-3bba405086ece463.js"],"BackButton"]
+1a:I[9665,[],"ViewportBoundary"]
+1c:I[9665,[],"MetadataBoundary"]
+1d:"$Sreact.suspense"
+3:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebSite\",\n  \"name\": \"Mr. Iridescent - Digital Polymat\",\n  \"url\": \"https://mriridescent-digitalpolymat.netlify.app\",\n  \"description\": \"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert. 20+ years coding experience, Cisco-verified security professional. Hire me for transformative digital solutions.\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"David Akpoviroro Oke\"\n  },\n  \"potentialAction\": {\n    \"@type\": \"SearchAction\",\n    \"target\": {\n      \"@type\": \"EntryPoint\",\n      \"urlTemplate\": \"https://mriridescent-digitalpolymat.netlify.app/search?q={search_term_string}\"\n    },\n    \"query-input\": \"required name=search_term_string\"\n  }\n}"}}]
+c:T92b,{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Iridescent Internet Solutions Limited",
+  "founder": {
+    "@type": "Person",
+    "name": "David Akpoviroro Oke"
+  },
+  "foundingDate": "2017",
+  "url": "https://mriridescent-digitalpolymat.netlify.app",
+  "logo": "/images/david-oke-digital-polymat.jpg",
+  "description": "Digital transformation company specializing in full-stack development, AI engineering, and cybersecurity solutions",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "Nigeria"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+234-XXX-XXX-XXXX",
+    "contactType": "customer service",
+    "email": "mriridescent@yahoo.com"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/mriridescent",
+    "https://github.com/mriridescent",
+    "https://facebook.com/iammriridescent",
+    "https://instagram.com/mriridescent",
+    "mriridescent@yahoo.com"
+  ],
+  "serviceArea": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Digital Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Full Stack Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI Engineering & Implementation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Cybersecurity Consulting"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Digital Transformation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "UI/UX Design & Branding"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Video Production & Editing"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Remote Team Leadership"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Technology Consulting"
+        }
+      }
+    ]
+  }
+}4:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$c"}}]
+d:T7b9,{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a Digital Polymat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Digital Polymat is a modern renaissance professional who combines expertise across multiple domains - technology, design, business strategy, and creative arts - to solve complex problems with innovative, holistic solutions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What services does David Oke offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "David offers full-stack development, AI engineering, cybersecurity consulting, digital transformation, UI/UX design, video production, and remote team leadership services globally."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is David available for remote work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, David is a remote-first professional with 7+ years of experience leading distributed teams and delivering projects globally. He's available for full-time, contract, and consulting work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes David's approach unique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "David embodies all nine of Howard Gardner's Multiple Intelligences, making him a true Multipotentialite. He combines Design Thinking and Systems Thinking with 20+ years of coding experience and Cisco-verified cybersecurity expertise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I hire David for my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can contact David through his portfolio at mriridescent-digitalpolymat.netlify.app, email mriridescent@yahoo.com, or connect via LinkedIn. He offers free initial consultations to discuss your project needs."
+      }
+    }
+  ]
+}5:["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$d"}}]
+6:["$","body",null,{"className":"font-sans antialiased overflow-x-hidden","suppressHydrationWarning":true,"children":["$","$Le",null,{"children":["$","$Lf",null,{"parallelRouterKey":"children","error":"$10","errorStyles":[],"errorScripts":[],"template":["$","$L11",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50 px-4","children":["$","div",null,{"className":"text-center max-w-md","children":[["$","div",null,{"className":"w-24 h-24 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-8","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-search h-12 w-12 text-primary-600","children":[["$","circle","4ej97u",{"cx":"11","cy":"11","r":"8"}],["$","path","1qie3q",{"d":"m21 21-4.3-4.3"}],"$undefined"]}]}],["$","h1",null,{"className":"text-6xl font-bold text-slate-900 mb-4","children":"404"}],["$","h2",null,{"className":"text-2xl font-bold text-slate-900 mb-4","children":"Page Not Found"}],["$","p",null,{"className":"text-slate-600 mb-8","children":"The page you're looking for doesn't exist or has been moved. Let's get you back on track."}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-4 justify-center","children":[["$","$L12",null,{"href":"/","className":"inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-house h-4 w-4","children":[["$","path","5wwlr5",{"d":"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"}],["$","path","1d0kgt",{"d":"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],"$undefined"]}],"Go Home"]}],["$","$L13",null,{}]]}],["$","div",null,{"className":"mt-12","children":[["$","p",null,{"className":"text-sm text-slate-500 mb-4","children":"Popular pages:"}],["$","div",null,{"className":"flex flex-wrap gap-2 justify-center","children":[["$","$L12",null,{"href":"/about","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"About"}],["$","$L12",null,{"href":"/philosophy","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Philosophy"}],["$","$L12",null,{"href":"/case-studies","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Case Studies"}],["$","$L12",null,{"href":"/writings","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Writings"}],["$","$L12",null,{"href":"/contact","className":"text-sm text-primary-600 hover:text-primary-700 underline","children":"Contact"}]]}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]
+7:["$","$1","c",{"children":[null,["$","$Lf",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L11",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+8:["$","$1","c",{"children":[["$","div",null,{"className":"pt-16 min-h-screen bg-gradient-to-br from-slate-50 to-blue-50","children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16","children":[["$","div",null,{"className":"text-center mb-16","children":[["$","h1",null,{"className":"text-4xl md:text-6xl font-bold text-slate-900 mb-6","children":["Cover Letter ",["$","span",null,{"className":"text-gradient","children":"Templates"}]]}],["$","p",null,{"className":"text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed","children":"Two strategic approaches to professional correspondence: one audacious and formal, the other conversational and authentic. Both designed to demonstrate polymathic thinking."}]]}],["$","div",null,{"className":"grid lg:grid-cols-2 gap-8","children":[["$","div",null,{"className":"bg-white rounded-2xl shadow-lg overflow-hidden","children":[["$","div",null,{"className":"bg-gradient-to-r from-purple-600 to-indigo-600 p-6 text-white","children":[["$","div",null,{"className":"flex items-center gap-4 mb-4","children":[["$","div",null,{"className":"w-12 h-12 bg-white/20 rounded-full flex items-center justify-center","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-crown h-6 w-6","children":[["$","path","1vdc57",{"d":"M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"}],["$","path","11awu3",{"d":"M5 21h14"}],"$undefined"]}]}],["$","div",null,{"children":[["$","h2",null,{"className":"text-2xl font-bold","children":"The Sforza Archetype"}],["$","p",null,{"className":"opacity-90","children":"Formal & Audacious"}]]}]]}],["$","p",null,{"className":"text-white/90 leading-relaxed","children":"Inspired by Leonardo da Vinci's letter to Ludovico Sforza, this template is designed to capture the attention of visionary leaders through bold, confident language."}]]}],["$","div",null,{"className":"p-6","children":[["$","div",null,{"className":"mb-6","children":[["$","h3",null,{"className":"font-semibold text-slate-900 mb-3","children":"Best Used For:"}],["$","ul",null,{"className":"text-slate-600 text-sm space-y-2","children":[["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-purple-600 mt-1","children":"•"}],["$","span",null,{"children":"Innovative startups and forward-thinking companies"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-purple-600 mt-1","children":"•"}],["$","span",null,{"children":"Senior leadership and C-suite positions"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-purple-600 mt-1","children":"•"}],["$","span",null,{"children":"Companies that value bold thinking and innovation"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-purple-600 mt-1","children":"•"}],["$","span",null,{"children":"Roles requiring strategic vision and leadership"}]]}]]}]]}],["$","div",null,{"className":"bg-slate-50 rounded-lg p-4 mb-6","children":[["$","h4",null,{"className":"font-semibold text-slate-900 mb-2","children":"Sample Opening:"}],["$","blockquote",null,{"className":"text-slate-600 italic text-sm leading-relaxed","children":"\"Having now sufficiently seen and considered the achievements of those who count themselves masters and artificers of modern digital instruments, and having noted that the invention and performance of the said instruments often do not differ from that in common usage, I shall endeavor, while intending no discredit to others, to make myself understood to Your Excellency...\""}]]}],["$","div",null,{"className":"flex gap-3","children":[["$","button",null,{"className":"flex-1 bg-purple-600 text-white px-4 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors flex items-center justify-center gap-2","children":["$L14","Download Template"]}],"$L15"]}]]}]]}],"$L16"]}],"$L17","$L18"]}]}],null,"$L19"]}]
+9:["$","div","l",{"className":"min-h-screen flex items-center justify-center bg-slate-50","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"}],["$","p",null,{"className":"text-slate-600","children":"Loading..."}]]}]}]
+a:["$","$1","h",{"children":[null,[["$","$L1a",null,{"children":"$L1b"}],null],["$","$L1c",null,{"children":["$","div",null,{"hidden":true,"children":["$","$1d",null,{"fallback":null,"children":"$L1e"}]}]}]]}]
+23:I[9665,[],"OutletBoundary"]
+25:I[4911,[],"AsyncMetadataOutlet"]
+14:["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-download h-4 w-4","children":[["$","path","ih7n3h",{"d":"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"}],["$","polyline","2ggqvy",{"points":"7 10 12 15 17 10"}],["$","line","1vk2je",{"x1":"12","x2":"12","y1":"15","y2":"3"}],"$undefined"]}]
+15:["$","button",null,{"className":"px-4 py-3 border border-slate-300 text-slate-700 rounded-lg font-semibold hover:border-purple-600 hover:text-purple-600 transition-colors","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-file-text h-4 w-4","children":[["$","path","1rqfz7",{"d":"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"}],["$","path","tnqrlb",{"d":"M14 2v4a2 2 0 0 0 2 2h4"}],["$","path","b1mrlr",{"d":"M10 9H8"}],["$","path","t4e002",{"d":"M16 13H8"}],["$","path","z1uh3a",{"d":"M16 17H8"}],"$undefined"]}]}]
+16:["$","div",null,{"className":"bg-white rounded-2xl shadow-lg overflow-hidden","children":[["$","div",null,{"className":"bg-gradient-to-r from-emerald-600 to-teal-600 p-6 text-white","children":[["$","div",null,{"className":"flex items-center gap-4 mb-4","children":[["$","div",null,{"className":"w-12 h-12 bg-white/20 rounded-full flex items-center justify-center","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart h-6 w-6","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]}],["$","div",null,{"children":[["$","h2",null,{"className":"text-2xl font-bold","children":"The Humanized Dialogue"}],["$","p",null,{"className":"opacity-90","children":"Conversational & Authentic"}]]}]]}],["$","p",null,{"className":"text-white/90 leading-relaxed","children":"A warm, genuine approach that builds rapport and demonstrates cultural alignment while showcasing polymathic thinking in accessible language."}]]}],["$","div",null,{"className":"p-6","children":[["$","div",null,{"className":"mb-6","children":[["$","h3",null,{"className":"font-semibold text-slate-900 mb-3","children":"Best Used For:"}],["$","ul",null,{"className":"text-slate-600 text-sm space-y-2","children":[["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-emerald-600 mt-1","children":"•"}],["$","span",null,{"children":"Companies with strong cultural values"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-emerald-600 mt-1","children":"•"}],["$","span",null,{"children":"Remote-first organizations"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-emerald-600 mt-1","children":"•"}],["$","span",null,{"children":"Collaborative team environments"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-emerald-600 mt-1","children":"•"}],["$","span",null,{"children":"Positions emphasizing team fit and communication"}]]}]]}]]}],["$","div",null,{"className":"bg-slate-50 rounded-lg p-4 mb-6","children":[["$","h4",null,{"className":"font-semibold text-slate-900 mb-2","children":"Sample Opening:"}],["$","blockquote",null,{"className":"text-slate-600 italic text-sm leading-relaxed","children":"\"I've been following [Company Name]'s work for some time, and your recent launch of [specific project] particularly caught my eye. Your approach to solving [specific problem] resonates deeply with my own philosophy—that technology's highest purpose is to create systems that are not only powerful but also elegantly simple and human-centric.\""}]]}],["$","div",null,{"className":"flex gap-3","children":[["$","button",null,{"className":"flex-1 bg-emerald-600 text-white px-4 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors flex items-center justify-center gap-2","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-download h-4 w-4","children":[["$","path","ih7n3h",{"d":"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"}],["$","polyline","2ggqvy",{"points":"7 10 12 15 17 10"}],["$","line","1vk2je",{"x1":"12","x2":"12","y1":"15","y2":"3"}],"$undefined"]}],"Download Template"]}],["$","button",null,{"className":"px-4 py-3 border border-slate-300 text-slate-700 rounded-lg font-semibold hover:border-emerald-600 hover:text-emerald-600 transition-colors","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-file-text h-4 w-4","children":[["$","path","1rqfz7",{"d":"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"}],"$L1f","$L20","$L21","$L22","$undefined"]}]}]]}]]}]]}]
+17:["$","div",null,{"className":"mt-16 bg-white rounded-2xl shadow-lg p-8","children":[["$","h2",null,{"className":"text-2xl font-bold text-slate-900 mb-6","children":"Strategic Usage Guidelines"}],["$","div",null,{"className":"grid md:grid-cols-2 gap-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"text-lg font-semibold text-slate-900 mb-4","children":"The Sforza Approach"}],["$","div",null,{"className":"space-y-3 text-slate-600 text-sm","children":[["$","p",null,{"children":[["$","strong",null,{"children":"Risk Level:"}]," High-risk, high-reward"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Target Audience:"}]," Visionary leaders, innovative companies"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Tone:"}]," Confident, bold, historically-inspired"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Goal:"}]," Capture imagination through capability demonstration"]}],["$","p",null,{"children":[["$","strong",null,{"children":"When to Use:"}]," When you want to stand out dramatically and the company culture supports bold approaches"]}]]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"text-lg font-semibold text-slate-900 mb-4","children":"The Humanized Dialogue"}],["$","div",null,{"className":"space-y-3 text-slate-600 text-sm","children":[["$","p",null,{"children":[["$","strong",null,{"children":"Risk Level:"}]," Low-risk, relationship-building"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Target Audience:"}]," Collaborative teams, culture-focused companies"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Tone:"}]," Warm, genuine, professionally conversational"]}],["$","p",null,{"children":[["$","strong",null,{"children":"Goal:"}]," Build connection and demonstrate cultural fit"]}],["$","p",null,{"children":[["$","strong",null,{"children":"When to Use:"}]," When cultural alignment is paramount and authenticity is valued"]}]]}]]}]]}],["$","div",null,{"className":"mt-8 p-6 bg-gradient-to-r from-primary-50 to-accent-50 rounded-lg","children":[["$","h3",null,{"className":"text-lg font-semibold text-slate-900 mb-3","children":"Customization Tips"}],["$","ul",null,{"className":"text-slate-700 text-sm space-y-2","children":[["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-primary-600 mt-1","children":"•"}],["$","span",null,{"children":"Research the company's recent projects and mention specific initiatives"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-primary-600 mt-1","children":"•"}],["$","span",null,{"children":"Adapt the technical examples to match the company's technology stack"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-primary-600 mt-1","children":"•"}],["$","span",null,{"children":"Include quantifiable achievements relevant to the role requirements"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-primary-600 mt-1","children":"•"}],["$","span",null,{"children":"Reference the hiring manager by name when possible"}]]}],["$","li",null,{"className":"flex items-start gap-2","children":[["$","span",null,{"className":"text-primary-600 mt-1","children":"•"}],["$","span",null,{"children":"Connect your polymathic approach to their specific business challenges"}]]}]]}]]}]]}]
+18:["$","div",null,{"className":"mt-16 text-center","children":["$","div",null,{"className":"bg-gradient-to-r from-primary-600 to-accent-600 rounded-2xl p-8 text-white","children":[["$","h2",null,{"className":"text-3xl font-bold mb-4","children":"Ready to Craft Your Message?"}],["$","p",null,{"className":"text-xl mb-8 opacity-90","children":"Choose the approach that best fits your target opportunity and company culture."}],["$","div",null,{"className":"flex flex-col sm:flex-row gap-4 justify-center","children":[["$","a",null,{"href":"/contact","className":"bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition-colors","children":"Get Personalized Help"}],["$","a",null,{"href":"/case-studies","className":"border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors","children":"See Results in Action"}]]}]]}]}]
+19:["$","$L23",null,{"children":["$L24",["$","$L25",null,{"promise":"$@26"}]]}]
+1f:["$","path","tnqrlb",{"d":"M14 2v4a2 2 0 0 0 2 2h4"}]
+20:["$","path","b1mrlr",{"d":"M10 9H8"}]
+21:["$","path","t4e002",{"d":"M16 13H8"}]
+22:["$","path","z1uh3a",{"d":"M16 17H8"}]
+1b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+24:null
+27:T6f7,Digital Polymat, Full Stack Engineer, AI Engineer, Cybersecurity Expert, React Developer, Next.js Developer, TypeScript Developer, Python Developer, Java Spring Developer, DevSecOps Engineer, Cloud Architect, RAG Systems, Agentic AI, MCP Protocol, LangChain Developer, Vector Databases, Machine Learning Engineer, Deep Learning, Cisco Cybersecurity, Ethical Hacker, Threat Management, Endpoint Security, Security Automation, SAST, DAST, UI/UX Designer, Brand Identity Designer, Video Editor, Color Grading, Adobe Creative Suite, Graphic Designer, Web Designer, Mobile App Designer, Design Thinking, Systems Thinking, Creative Problem Solving, Digital Transformation Consultant, Technology Consultant, Startup Advisor, Remote Team Leader, Digital Nomad, Freelance Developer, Technical Consultant, Business Process Automation, Digital Strategy, Innovation Consultant, FinTech Developer, Healthcare Technology, EdTech Solutions, E-commerce Development, Real Estate Technology, Non-Profit Technology, Enterprise Solutions, React, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, MySQL, AWS, Google Cloud, Docker, Kubernetes, Microservices, API Development, GraphQL, REST APIs, WebSocket, Progressive Web Apps, Mobile Development, Remote Developer, Global Developer, Nigeria Developer, African Tech Expert, International Developer, Distributed Team, Remote First, Location Independent, Multiple Intelligences, Multipotentialite, Renaissance Mind, Polymathic Thinking, Creatively Divergent, Systems Thinker, Design Thinker, Innovation Leader, Logical-Mathematical Intelligence, Linguistic Intelligence, Spatial Intelligence, Musical Intelligence, Bodily-Kinesthetic Intelligence, Interpersonal Intelligence, Intrapersonal Intelligence, Naturalistic Intelligence, Existential Intelligence26:{"metadata":[["$","title","0",{"children":"Cover Letter Templates | Polymathic Coder"}],["$","meta","1",{"name":"description","content":"Professional cover letter templates: The Sforza Archetype (formal & audacious) and The Humanized Dialogue (conversational & authentic)."}],["$","meta","2",{"name":"keywords","content":"$27"}],["$","meta","3",{"name":"author","content":"David Akpoviroro Oke"}],["$","meta","4",{"name":"robots","content":"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"}],["$","meta","5",{"name":"googlebot","content":"index, follow"}],["$","meta","6",{"name":"bingbot","content":"index, follow"}],["$","meta","7",{"name":"language","content":"English"}],["$","meta","8",{"name":"revisit-after","content":"7 days"}],["$","meta","9",{"name":"distribution","content":"global"}],["$","meta","10",{"name":"rating","content":"general"}],["$","meta","11",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","12",{"name":"contact","content":"mriridescent@yahoo.com"}],["$","meta","13",{"name":"reply-to","content":"mriridescent@yahoo.com"}],["$","meta","14",{"name":"owner","content":"David Akpoviroro Oke"}],["$","meta","15",{"name":"designer","content":"David Akpoviroro Oke"}],["$","meta","16",{"name":"developer","content":"David Akpoviroro Oke"}],["$","meta","17",{"name":"geo.region","content":"NG"}],["$","meta","18",{"name":"geo.country","content":"Nigeria"}],["$","meta","19",{"name":"geo.placename","content":"Nigeria"}],["$","meta","20",{"name":"ICBM","content":"9.0820, 8.6753"}],["$","meta","21",{"name":"profession","content":"Digital Polymat, Full Stack Engineer, AI Specialist, Cybersecurity Expert"}],["$","meta","22",{"name":"skills","content":"Full Stack Development, AI Engineering, Cybersecurity, UI/UX Design, Video Production"}],["$","meta","23",{"name":"experience","content":"20+ years coding experience, 7+ years leadership"}],"$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33","$L34","$L35","$L36","$L37","$L38","$L39","$L3a","$L3b","$L3c","$L3d","$L3e","$L3f","$L40","$L41","$L42","$L43","$L44","$L45","$L46","$L47","$L48"],"error":null,"digest":"$undefined"}
+1e:"$26:metadata"
+28:["$","meta","24",{"name":"availability","content":"Available for hire, consulting, and remote work globally"}]
+49:T960,{"@context":"https://schema.org","@type":"Person","name":"David Akpoviroro Oke","alternateName":"Mr. Iridescent","description":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert with 20+ years of coding experience","url":"https://mriridescent-digitalpolymat.netlify.app","image":"https://mriridescent-digitalpolymat.netlify.app/images/david-oke-digital-polymat.jpg","sameAs":["https://www.linkedin.com/in/mriridescent","https://github.com/mriridescent","https://facebook.com/iammriridescent","https://instagram.com/mriridescent"],"jobTitle":["Digital Polymat","Full Stack Engineer","AI Engineer","Cybersecurity Expert","Technology Consultant","Creative Director"],"worksFor":[{"@type":"Organization","name":"Zandbox Global","description":"Full Stack Engineer developing scalable fintech products"},{"@type":"Organization","name":"Iridescent Internet Solutions Limited","description":"Founder & CEO leading digital transformation projects"}],"alumniOf":{"@type":"EducationalOrganization","name":"University of the People","description":"Bachelor of Science in Computer Science (Expected 2026)"},"hasCredential":[{"@type":"EducationalOccupationalCredential","name":"Cisco Verified Cyber Threat Management","credentialCategory":"Cybersecurity Certification"},{"@type":"EducationalOccupationalCredential","name":"Cisco Verified Ethical Hacker","credentialCategory":"Cybersecurity Certification"},{"@type":"EducationalOccupationalCredential","name":"Cisco Verified Endpoint Security Engineer","credentialCategory":"Cybersecurity Certification"},{"@type":"EducationalOccupationalCredential","name":"Cisco Verified CyberOps Associate","credentialCategory":"Cybersecurity Certification"}],"knowsAbout":["Full Stack Development","Artificial Intelligence","Machine Learning","Cybersecurity","Digital Transformation","UI/UX Design","Video Production","Remote Team Leadership","Design Thinking","Systems Thinking","Multiple Intelligences","Polymathic Thinking"],"offers":{"@type":"Service","name":"Digital Transformation & Technology Consulting","description":"Comprehensive technology solutions including full stack development, AI implementation, cybersecurity, and creative design services","provider":{"@type":"Person","name":"David Akpoviroro Oke"},"areaServed":"Global","availableChannel":{"@type":"ServiceChannel","serviceType":"Remote Consulting","availableLanguage":"English"}}}29:["$","meta","25",{"name":"application-ld+json","content":"$49"}]
+2a:["$","meta","26",{"name":"theme-color","content":"#3B82F6"}]
+2b:["$","meta","27",{"name":"msapplication-TileColor","content":"#3B82F6"}]
+2c:["$","meta","28",{"name":"apple-mobile-web-app-capable","content":"yes"}]
+2d:["$","meta","29",{"name":"apple-mobile-web-app-status-bar-style","content":"default"}]
+2e:["$","meta","30",{"name":"format-detection","content":"telephone=no"}]
+2f:["$","meta","31",{"name":"fb:app_id","content":"123456789"}]
+30:["$","meta","32",{"name":"twitter:site","content":"@mriridescent"}]
+31:["$","meta","33",{"name":"twitter:creator","content":"@mriridescent"}]
+32:["$","meta","34",{"name":"hiring-keywords","content":"hire full stack developer, hire AI engineer, hire cybersecurity expert, remote developer for hire, digital transformation consultant, technology consultant available"}]
+33:["$","meta","35",{"name":"hiring-availability","content":"Available for hire, consulting, and remote work globally"}]
+34:["$","meta","36",{"name":"work-type","content":"Remote work, contract work, full-time employment, consulting, freelance"}]
+35:["$","meta","37",{"name":"specializations","content":"Digital Polymat, Multipotentialite, Design Thinking, Systems Thinking, Multiple Intelligences"}]
+36:["$","meta","38",{"name":"canonical","content":"https://mriridescent-digitalpolymat.netlify.app"}]
+37:["$","meta","39",{"name":"alternate","content":"https://mriridescent-digitalpolymat.netlify.app/resume"}]
+38:["$","meta","40",{"name":"next","content":"https://mriridescent-digitalpolymat.netlify.app/statistics"}]
+39:["$","meta","41",{"name":"prev","content":"https://mriridescent-digitalpolymat.netlify.app/about"}]
+3a:["$","meta","42",{"property":"og:title","content":"Mr. Iridescent - Digital Polymat"}]
+3b:["$","meta","43",{"property":"og:description","content":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert. 20+ years coding experience, Cisco-verified security professional. Hire me for transformative digital solutions."}]
+3c:["$","meta","44",{"property":"og:url","content":"https://mriridescent-digitalpolymat.netlify.app/"}]
+3d:["$","meta","45",{"property":"og:site_name","content":"Mr. Iridescent - Digital Polymat"}]
+3e:["$","meta","46",{"property":"og:locale","content":"en_US"}]
+3f:["$","meta","47",{"property":"og:image","content":"https://mriridescent-digitalpolymat.netlify.app/images/david-oke-digital-polymat.jpg"}]
+40:["$","meta","48",{"property":"og:image:width","content":"1200"}]
+41:["$","meta","49",{"property":"og:image:height","content":"630"}]
+42:["$","meta","50",{"property":"og:image:alt","content":"David Akpoviroro Oke - Mr. Iridescent - Digital Polymat"}]
+43:["$","meta","51",{"property":"og:type","content":"website"}]
+44:["$","meta","52",{"name":"twitter:card","content":"summary_large_image"}]
+45:["$","meta","53",{"name":"twitter:creator","content":"@mriridescent"}]
+46:["$","meta","54",{"name":"twitter:title","content":"Mr. Iridescent - Digital Polymat"}]
+47:["$","meta","55",{"name":"twitter:description","content":"Digital Polymat, Full Stack Engineer, AI Specialist & Cybersecurity Expert. 20+ years coding experience, Cisco-verified security professional. Hire me for transformative digital solutions."}]
+48:["$","meta","56",{"name":"twitter:image","content":"https://mriridescent-digitalpolymat.netlify.app/images/david-oke-digital-polymat.jpg"}]

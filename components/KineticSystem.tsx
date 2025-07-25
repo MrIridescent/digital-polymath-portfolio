@@ -164,7 +164,7 @@ export function KineticText({
   if (variant === 'wave') {
     return (
       <span className={className}>
-        {text.split('').map((char, index) => (
+        {text.split('').map((char: string, index: number) => (
           <motion.span
             key={index}
             animate={{

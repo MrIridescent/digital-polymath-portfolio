@@ -260,7 +260,7 @@ export function SkillsMatrix() {
         </motion.div>
 
         <div className="grid gap-8">
-          {skillDomains.map((domain, index) => {
+          {skillDomains && skillDomains.map((domain, index) => {
             const colors = colorClasses[domain.color as keyof typeof colorClasses]
             return (
               <motion.div
@@ -289,7 +289,7 @@ export function SkillsMatrix() {
                           Core Expertise (The Teeth of the Comb)
                         </h4>
                         <div className="space-y-2">
-                          {domain.coreExpertise.map((skill) => (
+                          {domain.coreExpertise && domain.coreExpertise.map((skill) => (
                             <div key={skill} className="flex items-center gap-2">
                               <div className="w-2 h-2 bg-slate-600 rounded-full"></div>
                               <span className="text-slate-700 font-medium">{skill}</span>
@@ -304,7 +304,7 @@ export function SkillsMatrix() {
                           Broad Proficiency (The Spine of the Comb)
                         </h4>
                         <div className="space-y-2">
-                          {domain.broadProficiency.map((skill) => (
+                          {domain.broadProficiency && domain.broadProficiency.map((skill) => (
                             <div key={skill} className="flex items-center gap-2">
                               <div className="w-2 h-2 bg-slate-400 rounded-full"></div>
                               <span className="text-slate-600">{skill}</span>

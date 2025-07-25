@@ -1,10 +1,21 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { DynamicThemeEngine, ThemeVariant } from '@/lib/DynamicThemeEngine'
 import { AIPersonalizationEngine } from '@/lib/AIPersonalizationEngine'
+import { InactivityTimer } from '@/lib/InactivityTimer'
 import { ClientOnly } from './ClientOnly'
+// Autonomous morphing system replaces manual layout controls
+import { AutonomousLayoutMorpher } from './AutonomousLayoutMorpher'
+
+import { FixedPositionCards } from './FixedPositionCards'
+import { Navigation } from './Navigation'
+import { DigitalCourtierBot } from './DigitalCourtierBot'
+import { LeadDashboard } from './LeadDashboard'
+import { SystemIntegrationTest } from './SystemIntegrationTest'
+import { EnterpriseSystemTest } from './EnterpriseSystemTest'
+import { SystemFireTest } from './SystemFireTest'
 
 interface DynamicLayoutProps {
   children: React.ReactNode
@@ -15,6 +26,9 @@ export function DynamicLayoutSystem({ children }: DynamicLayoutProps) {
   const [isLoading, setIsLoading] = useState(true)
   const [themeEngine] = useState(() => new DynamicThemeEngine())
   const [aiEngine] = useState(() => new AIPersonalizationEngine())
+  const inactivityTimerRef = useRef<InactivityTimer | null>(null)
+
+  // Advanced UI system is now integrated
 
   useEffect(() => {
     const initializeTheme = async () => {
@@ -44,32 +58,81 @@ export function DynamicLayoutSystem({ children }: DynamicLayoutProps) {
     return () => clearTimeout(timer)
   }, [themeEngine, aiEngine])
 
+  // Add inactivity-based theme rotation (1 minute after last activity)
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+
+    const handleThemeRotation = () => {
+      const randomTheme = themeEngine.getRandomTheme()
+      themeEngine.applyTheme(randomTheme)
+      setCurrentTheme(randomTheme)
+
+      // Show morphing notification
+      if (typeof window !== 'undefined' && document.body) {
+        const notification = document.createElement('div')
+        notification.innerHTML = `
+          <div class="flex items-center space-x-2">
+            <div class="w-3 h-3 rounded-full animate-pulse" style="background-color: ${randomTheme.colors.primary}"></div>
+            <span>🌀 Morphing to ${randomTheme.name}</span>
+          </div>
+        `
+        notification.className = 'fixed top-4 right-4 z-50 bg-black/90 text-white px-4 py-3 rounded-xl text-sm font-medium transition-all duration-500 backdrop-blur-md border border-white/20'
+        document.body.appendChild(notification)
+
+        setTimeout(() => {
+          notification.style.opacity = '0'
+          notification.style.transform = 'translateY(-20px)'
+          setTimeout(() => {
+            if (document.body.contains(notification)) {
+              document.body.removeChild(notification)
+            }
+          }, 500)
+        }, 3000)
+      }
+    }
+
+    // Create inactivity timer (60 seconds = 1 minute)
+    inactivityTimerRef.current = new InactivityTimer(handleThemeRotation, 60000)
+    inactivityTimerRef.current.start()
+
+    return () => {
+      if (inactivityTimerRef.current) {
+        inactivityTimerRef.current.destroy()
+      }
+    }
+  }, [themeEngine])
+
   const getLayoutClasses = () => {
-    if (!currentTheme) return 'grid-layout-default'
-    
-    const baseClasses = 'min-h-screen transition-all duration-700 ease-out'
+    if (!currentTheme) return 'min-h-screen w-full flex flex-col'
+
+    const baseClasses = 'min-h-screen w-full flex flex-col transition-all duration-700 ease-out'
     const themeClasses = `theme-${currentTheme.id}`
-    
-    switch (currentTheme.layout.type) {
-      case 'grid':
-        return `${baseClasses} ${themeClasses} grid-layout-standard`
-      case 'masonry':
-        return `${baseClasses} ${themeClasses} masonry-layout`
-      case 'asymmetric':
-        return `${baseClasses} ${themeClasses} asymmetric-layout`
-      case 'flowing':
-        return `${baseClasses} ${themeClasses} flowing-layout`
-      case 'centered':
-        return `${baseClasses} ${themeClasses} centered-layout`
-      case 'split':
-        return `${baseClasses} ${themeClasses} split-layout`
+
+    // Full viewport layout with theme-specific styling
+    switch (currentTheme.category) {
+      case 'cyberpunk':
+        return `${baseClasses} ${themeClasses} bg-black text-green-300`
+      case 'minimalist':
+        return `${baseClasses} ${themeClasses} bg-white text-gray-900`
+      case 'organic':
+        return `${baseClasses} ${themeClasses} bg-gradient-to-br from-green-50 to-blue-50 text-green-800`
+      case 'retro':
+        return `${baseClasses} ${themeClasses} bg-gradient-to-br from-purple-900 to-pink-900 text-pink-100`
+      case 'futuristic':
+        return `${baseClasses} ${themeClasses} bg-slate-900 text-blue-100`
+      case 'artistic':
+        return `${baseClasses} ${themeClasses} bg-gradient-to-br from-purple-50 to-pink-50 text-purple-800`
       default:
-        return `${baseClasses} ${themeClasses} grid-layout-default`
+        return `${baseClasses} ${themeClasses} bg-white text-slate-900`
     }
   }
 
   const getAnimationVariants = () => {
-    if (!currentTheme) return {}
+    if (!currentTheme) return {
+      initial: { opacity: 0 },
+      animate: { opacity: 1 },
+      exit: { opacity: 0 }
+    }
     
     const speed = currentTheme.animations.speed === 'fast' ? 0.3 : 
                  currentTheme.animations.speed === 'medium' ? 0.6 : 0.9
@@ -123,7 +186,7 @@ export function DynamicLayoutSystem({ children }: DynamicLayoutProps) {
             transition={{ delay: 0.5 }}
             className="text-white text-lg font-medium"
           >
-            Generating your personalized experience...
+            Personalizing your viewing experience...
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}
@@ -175,25 +238,47 @@ export function DynamicLayoutSystem({ children }: DynamicLayoutProps) {
           <DynamicBackground theme={currentTheme} />
         </ClientOnly>
         
-        {/* Main Content */}
-        <motion.div
-          className="relative z-10"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
-        >
-          {children}
-        </motion.div>
+        {/* Navigation */}
+        <Navigation />
 
-        {/* Theme Transition Overlay */}
+        {/* Moving quotes moved to main content */}
+
+        {/* Autonomous Layout Morphing System */}
+        <AutonomousLayoutMorpher currentTheme={currentTheme}>
+          {children}
+        </AutonomousLayoutMorpher>
+
+        {/* Fixed Position Cards - Profile and other cards in permanent positions */}
+        <FixedPositionCards currentTheme={currentTheme} />
+
+        {/* Digital Courtier Bot */}
+        <DigitalCourtierBot />
+
+        {/* Lead Dashboard */}
+        <LeadDashboard />
+
+        {/* System Integration Test (Development Only) */}
+        {process.env.NODE_ENV === 'development' && <SystemIntegrationTest />}
+
+        {/* Enterprise System Test (Development Only) */}
+        {process.env.NODE_ENV === 'development' && <EnterpriseSystemTest />}
+
+        {/* System Fire Test (Development Only) */}
+        {process.env.NODE_ENV === 'development' && <SystemFireTest />}
+
+        {/* Theme Transition Overlay - Optimized for Performance */}
         <motion.div
           className="fixed inset-0 pointer-events-none z-40"
           initial={{ opacity: 0 }}
           animate={{ opacity: 0 }}
-          exit={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
+          exit={{ opacity: 0.5 }}
+          transition={{
+            duration: 0.2, // Much faster
+            ease: "easeInOut"
+          }}
           style={{
-            background: `linear-gradient(45deg, ${currentTheme?.colors.primary}20, ${currentTheme?.colors.secondary}20)`
+            background: `linear-gradient(45deg, ${currentTheme?.colors.primary}10, ${currentTheme?.colors.secondary}10)`,
+            willChange: 'opacity' // Optimize for animations
           }}
         />
       </motion.div>

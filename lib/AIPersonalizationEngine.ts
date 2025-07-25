@@ -64,19 +64,113 @@ export class AIPersonalizationEngine {
 
   private async getLocationContext(): Promise<UserContext['location']> {
     try {
-      // Try IP-based geolocation first (no permission required)
-      const response = await fetch('https://ipapi.co/json/')
-      const data = await response.json()
-      
-      return {
-        city: data.city,
-        country: data.country_name,
-        timezone: data.timezone,
-        coordinates: { lat: data.latitude, lng: data.longitude }
+      // Check if we have cached location data
+      if (typeof window !== 'undefined') {
+        const cached = localStorage.getItem('location_context')
+        if (cached) {
+          try {
+            const cachedData = JSON.parse(cached)
+            const cacheTime = cachedData.timestamp
+            const now = Date.now()
+            // Use cached data if less than 1 hour old
+            if (now - cacheTime < 3600000) {
+              return cachedData.location
+            }
+          } catch {
+            // Clear invalid cached data
+            localStorage.removeItem('location_context')
+          }
+        }
       }
+
+      // Try IP-based geolocation with timeout and error handling
+      const controller = new AbortController()
+      const timeoutId = setTimeout(() => controller.abort(), 3000) // Reduced to 3 second timeout
+
+      const response = await fetch('https://ipapi.co/json/', {
+        signal: controller.signal,
+        headers: {
+          'Accept': 'application/json',
+        }
+      })
+      clearTimeout(timeoutId)
+
+      if (!response.ok) {
+        // Silently handle rate limiting and other errors
+        return this.getFallbackLocation()
+      }
+
+      const text = await response.text()
+      let data
+
+      try {
+        data = JSON.parse(text)
+      } catch {
+        // Invalid JSON response, use fallback
+        return this.getFallbackLocation()
+      }
+
+      // Validate required fields
+      if (!data || typeof data !== 'object') {
+        return this.getFallbackLocation()
+      }
+
+      const locationData = {
+        city: data.city || 'Unknown',
+        country: data.country_name || 'Unknown',
+        timezone: data.timezone || Intl.DateTimeFormat().resolvedOptions().timeZone,
+        coordinates: { lat: data.latitude || 0, lng: data.longitude || 0 }
+      }
+
+      // Cache the result
+      if (typeof window !== 'undefined') {
+        try {
+          localStorage.setItem('location_context', JSON.stringify({
+            location: locationData,
+            timestamp: Date.now()
+          }))
+        } catch {
+          // Ignore localStorage errors (e.g., quota exceeded)
+        }
+      }
+
+      return locationData
     } catch (error) {
-      console.log('Location context unavailable:', error)
-      return undefined
+      // Handle AbortError and other errors silently
+      if (error instanceof Error && error.name === 'AbortError') {
+        // Request was aborted due to timeout - this is expected behavior
+        return this.getFallbackLocation()
+      }
+
+      // For other errors, use fallback without logging
+      return this.getFallbackLocation()
+    }
+  }
+
+  private getFallbackLocation(): UserContext['location'] {
+    // Provide a reasonable fallback based on timezone
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone
+
+    // Simple timezone-based location inference
+    let city = 'Unknown'
+    let country = 'Unknown'
+
+    if (timezone.includes('Lagos') || timezone.includes('Africa')) {
+      city = 'Lagos'
+      country = 'Nigeria'
+    } else if (timezone.includes('New_York') || timezone.includes('America/New_York')) {
+      city = 'New York'
+      country = 'United States'
+    } else if (timezone.includes('London') || timezone.includes('Europe/London')) {
+      city = 'London'
+      country = 'United Kingdom'
+    }
+
+    return {
+      city,
+      country,
+      timezone,
+      coordinates: { lat: 0, lng: 0 }
     }
   }
 
@@ -94,8 +188,8 @@ export class AIPersonalizationEngine {
     const isTablet = /tablet|ipad/i.test(userAgent)
 
     // Estimate performance based on device and connection
-    const connection = (navigator as any).connection
-    const memoryGB = (navigator as any).deviceMemory || 4
+    const connection = (navigator as unknown as { connection?: { effectiveType?: string } }).connection
+    const memoryGB = (navigator as unknown as { deviceMemory?: number }).deviceMemory || 4
 
     let performance: 'low' | 'medium' | 'high' = 'medium'
     if (memoryGB >= 8 && !isMobile) performance = 'high'

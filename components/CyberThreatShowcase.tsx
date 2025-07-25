@@ -140,7 +140,7 @@ export function CyberThreatShowcase() {
             <div className="text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Cisco Security Certifications</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {ciscoExpertise.map((cert, index) => (
+                {ciscoExpertise && ciscoExpertise.map((cert, index) => (
                   <motion.div
                     key={cert}
                     className="flex items-center gap-3 p-3 bg-cyan-500/10 rounded-lg border border-cyan-500/30"
@@ -168,7 +168,7 @@ export function CyberThreatShowcase() {
             Cyber Threat Management Capabilities
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {threatManagementCapabilities.map((capability, index) => (
+            {threatManagementCapabilities && threatManagementCapabilities.map((capability, index) => (
               <motion.div
                 key={capability.title}
                 initial={{ opacity: 0, y: 30 }}

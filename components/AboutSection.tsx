@@ -8,6 +8,8 @@ import { SectionQuote } from './PolymathQuotes'
 import { TechEvolutionTimeline } from './TechEvolutionTimeline'
 import { EducationJourney } from './EducationJourney'
 import { KineticContainer, KineticCard } from './KineticSystem'
+import AdvancedContentProtection from './AdvancedContentProtection'
+import { ProtectedText } from './ContentProtection'
 
 export function AboutSection() {
   const certifications = [
@@ -70,7 +72,8 @@ export function AboutSection() {
   ]
 
   return (
-    <section className="py-20 dynamic-surface relative overflow-hidden" style={{ background: 'var(--color-surface)' }}>
+    <AdvancedContentProtection level={4} watermark="© David Akpoviroro OKE - About">
+      <section className="py-20 dynamic-surface relative overflow-hidden" style={{ background: 'var(--color-surface)' }}>
       {/* Dynamic Background Effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(6)].map((_, i) => (
@@ -171,7 +174,7 @@ export function AboutSection() {
         >
           <h3 className="text-3xl font-bold text-center mb-12">Core Competencies</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {coreCompetencies.map((competency, index) => (
+            {coreCompetencies && coreCompetencies.map((competency, index) => (
               <KineticContainer
                 key={competency.title}
                 variant={['magnetic', 'pulse', 'flow'][index % 3] as any}
@@ -232,8 +235,22 @@ export function AboutSection() {
                 <h4 className="text-lg font-semibold text-slate-700 mb-3">Solution-Oriented Thinking</h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
                   I don't just write code—I solve problems. Whether it's architecting a scalable backend,
-                  securing against emerging threats, or creating intuitive user experiences, my approach
-                  is always solution-first, technology-second.
+                  securing against emerging threats, creating intuitive user experiences, designing compelling
+                  brand identities, or producing cinematic video content, my approach is always solution-first,
+                  technology-second.
+                </p>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  <strong>Creative & Design Expertise:</strong> As a seasoned designer and branding expert,
+                  I'm proficient in graphics design, UI/UX, video editing, color grading, image retouching,
+                  and the complete Adobe Creative Suite. I shoot and edit videos professionally, creating
+                  visual narratives that bridge technical excellence with artistic vision.
+                </p>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  <strong>Multiple Intelligences Embodied:</strong> According to Howard Gardner's Theory of Multiple Intelligences,
+                  I demonstrate proficiency across all nine intelligence types - from logical-mathematical and linguistic
+                  to spatial, musical, bodily-kinesthetic, interpersonal, intrapersonal, naturalistic, and existential.
+                  This rare combination makes me a true <strong>Multipotentialite</strong> and <strong>Creatively Divergent</strong>
+                  professional who excels in both <strong>Design Thinking</strong> and <strong>Systems Thinking</strong>.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
                   This abstract conceptualization ability allows me to see patterns across domains,
@@ -261,7 +278,7 @@ export function AboutSection() {
           >
             <h3 className="text-3xl font-bold mb-8 text-center">Certifications</h3>
             <div className="space-y-4">
-              {certifications.map((cert, index) => (
+              {certifications && certifications.map((cert, index) => (
                 <motion.div
                   key={cert.name}
                   initial={{ opacity: 0, y: 20 }}
@@ -290,7 +307,7 @@ export function AboutSection() {
           >
             <h3 className="text-3xl font-bold mb-8 text-center">Education</h3>
             <div className="space-y-6">
-              {education.map((edu, index) => (
+              {education && education.map((edu, index) => (
                 <motion.div
                   key={edu.degree}
                   initial={{ opacity: 0, y: 20 }}
@@ -368,5 +385,6 @@ export function AboutSection() {
       {/* Education Journey */}
       <EducationJourney />
     </section>
+    </AdvancedContentProtection>
   )
 }

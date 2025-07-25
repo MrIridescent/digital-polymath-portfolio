@@ -9,10 +9,17 @@ import { CTASection } from '@/components/CTASection'
 import { NewsletterSignup } from '@/components/NewsletterSignup'
 import { ThemeSelector } from '@/components/ThemeSelector'
 import { ClientOnly } from '@/components/ClientOnly'
+import { GlobalCTA } from '@/components/GlobalCTA'
+import { SocialSharing, HireMeShare } from '@/components/SocialSharing'
+import { GlobalHomeSEO } from '@/components/GlobalMarketSEO'
 
 export default function HomePage() {
   return (
-    <div className="pt-16 relative">
+    <>
+      {/* Global Market SEO Optimization */}
+      <GlobalHomeSEO />
+
+      <div className="pt-16 relative">
       {/* Background animations - load after critical content */}
       <FloatingIconsBackground />
 
@@ -40,10 +47,24 @@ export default function HomePage() {
 
       <CTASection />
 
+      {/* Global CTA for Client Acquisition */}
+      <GlobalCTA variant="primary" position="bottom" showStats={true} />
+
+      {/* Social Sharing for Viral Growth */}
+      <div className="py-16 bg-gradient-to-r from-slate-50 to-blue-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <HireMeShare />
+        </div>
+      </div>
+
+      {/* Floating Social Share */}
+      <SocialSharing variant="floating" />
+
       {/* Dynamic Theme Selector */}
       <ClientOnly>
         <ThemeSelector />
       </ClientOnly>
-    </div>
+      </div>
+    </>
   )
 }

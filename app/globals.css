@@ -2,6 +2,258 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 🛡️ ULTIMATE CONTENT PROTECTION STYLES */
+/* Prevent text selection and copying across all browsers */
+* {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+/* Allow selection for input fields and textareas */
+input, textarea, [contenteditable="true"] {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}
+
+/* Prevent image dragging and saving */
+img {
+  -webkit-user-drag: none !important;
+  -khtml-user-drag: none !important;
+  -moz-user-drag: none !important;
+  -o-user-drag: none !important;
+  user-drag: none !important;
+  pointer-events: none !important;
+  -webkit-touch-callout: none !important;
+}
+
+/* Make images non-draggable but keep them functional for layout */
+img.functional {
+  pointer-events: auto !important;
+}
+
+/* Remove text selection highlighting */
+::selection {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+::-moz-selection {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+/* Prevent highlighting on mobile */
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+  -webkit-focus-ring-color: rgba(0,0,0,0) !important;
+  outline: none !important;
+}
+
+/* Protection for specific content types */
+.protected-content {
+  position: relative;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.protected-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  background: transparent;
+}
+
+/* Protect code blocks */
+pre, code {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  position: relative;
+}
+
+/* Protect links but keep them clickable */
+a {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -webkit-user-drag: none !important;
+  -moz-user-drag: none !important;
+  user-drag: none !important;
+}
+
+/* Prevent text selection in buttons */
+button {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+/* Hide scrollbars to prevent content inspection */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+
+/* Prevent print styles from revealing content */
+@media print {
+  * {
+    display: none !important;
+  }
+
+  body::before {
+    content: "🛡️ Printing is disabled for content protection.";
+    display: block !important;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+  }
+}
+
+/* Protection notification styles */
+.protection-notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #ff4444, #cc0000);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  z-index: 10000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Disable text cursor */
+* {
+  cursor: default !important;
+}
+
+/* Re-enable cursor for interactive elements */
+button, a, input, textarea, select, [role="button"] {
+  cursor: pointer !important;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  cursor: text !important;
+}
+
+/* Advanced protection: Hide content when dev tools detected */
+.dev-tools-detected {
+  display: none !important;
+}
+
+.dev-tools-detected::before {
+  content: "🛡️ Developer tools detected. Content access restricted.";
+  display: block !important;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 99999;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Full viewport optimization */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#__next {
+  height: 100%;
+  width: 100%;
+}
+
+/* Performance optimizations */
+* {
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling and viewport fixes */
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100vw;
+}
+
+/* Responsive text scaling for zoom compatibility */
+@media (max-width: 1536px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Ensure containers respect viewport */
+.container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Prevent layout shift */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Ultra-fast loading animations */
 @keyframes shimmer {
   0% {

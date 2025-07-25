@@ -1,17 +1,37 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable static export for universal hosting compatibility
+  // Enable static export for Netlify deployment
   output: 'export',
-  distDir: 'out',
   trailingSlash: true,
   basePath: '', // Add your subdirectory here if needed, e.g., '/portfolio'
   assetPrefix: '', // Add your domain here if using CDN, e.g., 'https://yourdomain.com'
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
+    scrollRestoration: true,
+    skipTrailingSlashRedirect: true,
   },
+  // Turbopack configuration (stable)
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    },
+  },
+  // Configure allowed dev origins for cross-origin requests
+  allowedDevOrigins: [
+    'localhost:3000',
+    '127.0.0.1:3000',
+    '192.168.0.119:3000',
+    '0.0.0.0:3000'
+  ],
   serverExternalPackages: ['three'],
   images: {
-    unoptimized: true,
+    unoptimized: true, // Required for static export
+    formats: ['image/webp', 'image/avif'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     remotePatterns: [
       {
         protocol: 'https',
@@ -32,6 +52,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+
   // Ultra-fast SSR optimizations
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',

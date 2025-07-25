@@ -23,26 +23,28 @@ export function ProfileImage({
   const [imageError, setImageError] = useState(false)
 
   const sizeClasses = {
-    sm: 'w-24 h-24',
-    md: 'w-32 h-32',
-    lg: 'w-48 h-48',
-    xl: 'w-64 h-64'
+    sm: 'w-32 h-32',
+    md: 'w-48 h-48',
+    lg: 'w-64 h-64',
+    xl: 'w-80 h-80'
   }
 
   const getEffectStyles = () => {
+    const baseGlow = isHovered ? 'shadow-[0_0_60px_rgba' : 'shadow-[0_0_40px_rgba'
+
     switch (effect) {
       case 'hologram':
-        return 'border-4 border-cyan-400/50 shadow-[0_0_30px_rgba(6,182,212,0.6)]'
+        return `border-8 border-cyan-400/70 ${baseGlow}(6,182,212,0.8)] ring-4 ring-cyan-400/30`
       case 'neon':
-        return 'border-4 border-pink-400/50 shadow-[0_0_30px_rgba(236,72,153,0.6)]'
+        return `border-8 border-pink-400/70 ${baseGlow}(236,72,153,0.8)] ring-4 ring-pink-400/30`
       case 'quantum':
-        return 'border-4 border-green-400/50 shadow-[0_0_30px_rgba(34,197,94,0.6)]'
+        return `border-8 border-green-400/70 ${baseGlow}(34,197,94,0.8)] ring-4 ring-green-400/30`
       case 'renaissance':
-        return 'border-4 border-amber-400/50 shadow-[0_0_30px_rgba(245,158,11,0.6)]'
+        return `border-8 border-amber-400/70 ${baseGlow}(245,158,11,0.8)] ring-4 ring-amber-400/30`
       case 'polymath':
-        return 'border-4 border-purple-400/50 shadow-[0_0_30px_rgba(139,92,246,0.6)]'
+        return `border-8 border-purple-400/70 ${baseGlow}(139,92,246,0.8)] ring-4 ring-purple-400/30`
       default:
-        return 'border-4 border-primary-400/50'
+        return `border-8 border-primary-400/70 ${baseGlow}(59,130,246,0.8)] ring-4 ring-primary-400/30`
     }
   }
 
@@ -95,14 +97,23 @@ export function ProfileImage({
 
       {/* Main image container */}
       <motion.div
-        className={`relative ${sizeClasses[size]} rounded-full overflow-hidden ${getEffectStyles()}`}
+        className={`relative ${sizeClasses[size]} rounded-full overflow-hidden ${getEffectStyles()} cursor-pointer transform-gpu`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        whileHover={{ 
-          scale: 1.05,
-          rotateY: 5,
+        whileHover={{
+          scale: 1.15,
+          rotateY: 8,
+          rotateX: 3,
+          z: 50
         }}
-        transition={{ type: "spring", stiffness: 300 }}
+        animate={{
+          y: [0, -8, 0],
+          rotateZ: [0, 1, -1, 0]
+        }}
+        transition={{
+          hover: { type: "spring", stiffness: 300, damping: 20 },
+          animate: { duration: 6, repeat: Infinity, ease: "easeInOut" }
+        }}
       >
         {/* Animated background for placeholder */}
         {imageError && (

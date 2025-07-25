@@ -677,6 +677,12 @@ export class DynamicThemeEngine {
     document.body.classList.add(`theme-${theme.id}`)
   }
 
+  public getRandomTheme(): ThemeVariant {
+    const randomIndex = Math.floor(Math.random() * THEME_VARIANTS.length)
+    this.currentTheme = THEME_VARIANTS[randomIndex]
+    return this.currentTheme
+  }
+
   public getThemeStats(): { visitCount: number; currentTheme: string; totalThemes: number } {
     return {
       visitCount: this.visitCount,
