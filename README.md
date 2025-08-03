@@ -1,6 +1,6 @@
 # 🌟 Digital Polymath Portfolio
 
-**David Akpoviroro OKE (Mr. Iridescent) - The Creative Renaissance Man**
+**David Akpoviroro Oke (Mr. Iridescent) - The Creative Renaissance Man**
 
 A spectacular, animated portfolio showcasing expertise in **Cisco Cyber Threat Management**, **Digital Product Architecture**, and **Polymathic Coding**.
 
@@ -126,3 +126,4 @@ npm start
 ## 📄 License
 
 MIT License - feel free to use this as a template for your own portfolio.# Deployment triggered on 07/16/2025 12:33:35
+
